@@ -265,7 +265,7 @@ def check_sums(problems: list) -> int:
         subdirs[:] = [s for s in subdirs if s not in (".git", "__pycache__")]
         for n in files:
             rel = os.path.relpath(os.path.join(d, n), ROOT).replace(os.sep, "/")
-            if rel != "SHA256SUMS":
+            if rel != "SHA256SUMS" and not rel.endswith(".ots"):   # the .ots file is the timestamp proof over SHA256SUMS itself
                 present.add(rel)
     for name in sorted(set(listed) | present):
         if name not in present:

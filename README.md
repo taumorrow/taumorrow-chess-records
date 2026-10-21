@@ -23,9 +23,9 @@ model was told and what it answered:
 * for the Sonnet series, the thinking summary returned by the API with each answer;
 * when a game ended because three answers in a row were rejected, those three answers under `unplayed_turn`.
 
-Each game is there twice: `P<nn>.md` to read, `P<nn>.json` for programs (same content).
+Each game is there three times: `P<nn>.md` to read, `P<nn>.json` for programs (same content), and `P<nn>.pgn` with the moves only, for chess programs and sites.
 `index.md` lists the games of a series; `prompt.md` gives the exact system text and the move template sent
-to the model.
+to the model. Each move was a fresh conversation: the model saw the earlier moves through the move list in the template, not through a chat history.
 
 ## How to replay a game
 
@@ -93,4 +93,5 @@ records have no thinking field.
 * `premiere-2026-10-04/`, `sonnet-2026-10-18/`: `P<nn>.md`, `P<nn>.json`, `index.md`, `prompt.md`
 * `verify.py`: replays and checks everything listed above
 * `SHA256SUMS`: checksums of all other files
+* `SHA256SUMS.ots`: OpenTimestamps proof for `SHA256SUMS`, anchored in the Bitcoin blockchain (verify with `ots verify SHA256SUMS.ots`)
 * `LICENSE`: CC BY 4.0, attribution "Taumorrow"

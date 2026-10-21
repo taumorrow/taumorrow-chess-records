@@ -1,0 +1,17 @@
+[Event "Taumorrow Chess vs Claude Sonnet 5.5 · Thinking (sonnet-2026-10-18)"]
+[Site "Taumorrow Chess, online"]
+[Date "2026.10.18"]
+[Round "4"]
+[White "engine"]
+[Black "model"]
+[Result "1-0"]
+[TimeControl "-"]
+
+1. Nc3 d5 2. Nf3 Nf6 3. Ne5 Nbd7 4. d4 e6 5. Bf4 Nxe5 6. dxe5 Nd7 7. e4 c5 8.
+exd5 exd5 9. Nxd5 Qa5+ 10. c3 Qd8 11. Bc4 Nb6 12. Qd3 Nxc4 13. Qxc4 Be6 14.
+Qa4+ Bd7 15. Qe4 Bc6 16. c4 Bxd5 17. cxd5 Qb6 18. O-O-O Qb4 19. f3 Qxe4 20.
+fxe4 Be7 21. d6 Bf8 22. d7+ Ke7 23. a4 Rd8 24. Bg5+ Ke6 25. Bxd8 Be7 26. Bxe7
+Kxe7 27. Rd5 Rd8 28. Rhd1 Ke6 29. g4 Rxd7 30. Rxd7 Kxe5 31. Rxb7 Ke6 32. Rf1
+f6 33. Rxg7 h6 34. Rxa7 Ke5 35. Rf5+ Ke6 36. Rxc5 Kd6 37. Rh5 Ke6 38. Kd2 Kd6
+39. a5 Kc6 40. Rxh6 Kd6 41. g5 Ke5 42. Re7+ Kd6 43. gxf6 Kc6 44. f7+ Kc5 45.
+Rh5+ Kd4 46. Rd5+ Kc4 47. Rc7+ Kb4 48. f8=Q+ Kb3 49. Qa3# 1-0

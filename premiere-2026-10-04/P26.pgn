@@ -1,0 +1,12 @@
+[Event "Taumorrow Chess vs Claude Haiku 4.5 · Thinking (premiere-2026-10-04)"]
+[Site "Taumorrow Chess, online"]
+[Date "2026.10.04"]
+[Round "26"]
+[White "engine"]
+[Black "model"]
+[Result "1-0"]
+[TimeControl "-"]
+
+1. Nc3 e5 2. Nf3 Nc6 3. Ne4 d5 4. Neg5 h6 5. Nh3 Bg4 6. a4 Nf6 7. b3 Ne4 8. c4
+Nxf2 9. Nxf2 dxc4 10. Nxg4 Nd4 11. bxc4 Nxf3+ 12. exf3 Be7 13. Nxe5 Qd5 14.
+cxd5 Rf8 15. Bb5+ c6 16. dxc6 Rc8 17. c7# 1-0
