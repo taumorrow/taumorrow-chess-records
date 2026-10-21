@@ -2,8 +2,8 @@
 [Site "Taumorrow Chess, online"]
 [Date "2026.10.04"]
 [Round "7"]
-[White "model"]
-[Black "engine"]
+[White "Claude Haiku 4.5"]
+[Black "Taumorrow Chess"]
 [Result "0-1"]
 [TimeControl "-"]
 

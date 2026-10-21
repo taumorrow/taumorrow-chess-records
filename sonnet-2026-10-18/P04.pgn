@@ -2,8 +2,8 @@
 [Site "Taumorrow Chess, online"]
 [Date "2026.10.18"]
 [Round "4"]
-[White "engine"]
-[Black "model"]
+[White "Taumorrow Chess"]
+[Black "Claude Sonnet 5.5 · Thinking"]
 [Result "1-0"]
 [TimeControl "-"]
 
