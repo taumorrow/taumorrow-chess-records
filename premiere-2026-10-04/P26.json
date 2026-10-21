@@ -1,0 +1,529 @@
+{
+ "black": "model",
+ "duration_s": 971,
+ "end_utc": "2026-10-04 17:43:02.287 UTC",
+ "final_fen": "2r1kr2/ppP1bpp1/7p/1B2N3/P7/5P2/3P2PP/R1BQK2R b KQ - 0 17",
+ "game": 26,
+ "half_moves": 33,
+ "model": "Claude Haiku 4.5 · Thinking",
+ "model_answers": 20,
+ "model_colour": "Black",
+ "moves": [
+  {
+   "by": "engine",
+   "colour": "White",
+   "fen_after": "rnbqkbnr/pppppppp/8/8/8/2N5/PPPPPPPP/R1BQKBNR b KQkq - 1 1",
+   "ms": 10220,
+   "ms_source": "server",
+   "n": 1,
+   "san": "Nc3",
+   "uci": "b1c3"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "Looking at this position, White has just developed the knight to c3, a solid opening move. \n\nI should respond with a classical central move to control the board. Playing e7-e5 is the most natural and solid response, establishing a presence in the center and opening lines for my pieces.\n\nMOVE: e7e5",
+     "attempt": 1,
+     "move_read": "e7e5",
+     "outcome": "accepted",
+     "time_utc": "2026-10-04 17:27:07.299 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "Black",
+   "fen_after": "rnbqkbnr/pppp1ppp/8/4p3/8/2N5/PPPPPPPP/R1BQKBNR w KQkq e6 0 2",
+   "ms": 5200,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 2,
+   "san": "e5",
+   "uci": "e7e5"
+  },
+  {
+   "by": "engine",
+   "colour": "White",
+   "fen_after": "rnbqkbnr/pppp1ppp/8/4p3/8/2N2N2/PPPPPPPP/R1BQKB1R b KQkq - 1 2",
+   "ms": 19153,
+   "ms_source": "server",
+   "n": 3,
+   "san": "Nf3",
+   "uci": "g1f3"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "Looking at this position, I'm facing the Two Knights Defense setup. White has developed both knights to strong squares. I need to develop my pieces and support my center pawn on e5.\n\nThe most natural move is to develop my knight and defend my central pawn.\n\nMOVE: b8c6\n\nThis develops a piece while protecting the e5 pawn and preparing further development.",
+     "attempt": 1,
+     "move_read": "b8c6",
+     "outcome": "accepted",
+     "time_utc": "2026-10-04 17:27:33.398 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "Black",
+   "fen_after": "r1bqkbnr/pppp1ppp/2n5/4p3/8/2N2N2/PPPPPPPP/R1BQKB1R w KQkq - 2 3",
+   "ms": 6000,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 4,
+   "san": "Nc6",
+   "uci": "b8c6"
+  },
+  {
+   "by": "engine",
+   "colour": "White",
+   "fen_after": "r1bqkbnr/pppp1ppp/2n5/4p3/4N3/5N2/PPPPPPPP/R1BQKB1R b KQkq - 3 3",
+   "ms": 20211,
+   "ms_source": "server",
+   "n": 5,
+   "san": "Ne4",
+   "uci": "c3e4"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "Looking at this position, White's Ne4 is actively attacking both my knight on c6 and my e5 pawn. I need to address the central tension decisively.\n\nThe key move here is to push back with my central pawn, which will:\n1. Attack the Ne4 directly\n2. Open up the center and increase my piece activity\n3. Create tactical opportunities based on how White responds\n\nMOVE: d7d5\n\nThis aggressive central push forces White to deal with the tension immediately.",
+     "attempt": 1,
+     "move_read": "d7d5",
+     "outcome": "accepted",
+     "time_utc": "2026-10-04 17:28:04.626 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "Black",
+   "fen_after": "r1bqkbnr/ppp2ppp/2n5/3pp3/4N3/5N2/PPPPPPPP/R1BQKB1R w KQkq d6 0 4",
+   "ms": 10100,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 6,
+   "san": "d5",
+   "uci": "d7d5"
+  },
+  {
+   "by": "engine",
+   "colour": "White",
+   "fen_after": "r1bqkbnr/ppp2ppp/2n5/3pp1N1/8/5N2/PPPPPPPP/R1BQKB1R b KQkq - 1 4",
+   "ms": 35347,
+   "ms_source": "server",
+   "n": 7,
+   "san": "Neg5",
+   "uci": "e4g5"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "Looking at this position, White's knight on g5 is aggressively placed and threatens f7. The most natural response is to attack this knight immediately.\n\nMOVE: h7h6\n\nThis move forces the knight on g5 to make a decision - it's a tempo-gaining move that attacks the knight and prevents it from settling on strong squares. White will have to retreat or commit to a plan like Nxf7.",
+     "attempt": 1,
+     "move_read": "h7h6",
+     "outcome": "accepted",
+     "time_utc": "2026-10-04 17:28:54.207 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "Black",
+   "fen_after": "r1bqkbnr/ppp2pp1/2n4p/3pp1N1/8/5N2/PPPPPPPP/R1BQKB1R w KQkq - 0 5",
+   "ms": 13400,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 8,
+   "san": "h6",
+   "uci": "h7h6"
+  },
+  {
+   "by": "engine",
+   "colour": "White",
+   "fen_after": "r1bqkbnr/ppp2pp1/2n4p/3pp3/8/5N1N/PPPPPPPP/R1BQKB1R b KQkq - 1 5",
+   "ms": 45551,
+   "ms_source": "server",
+   "n": 9,
+   "san": "Nh3",
+   "uci": "g5h3"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "Looking at this position, White has played somewhat unusually, with the knight on h3 now out of play. The center is tense with my pawns on d5 and e5.\n\nI'll develop with an attacking move that pressures White's well-placed knight on f3.\n\nMOVE: c8g4\n\nThis develops my bishop while attacking the knight on f3, which is a key piece in White's position. The knight will have to move or be defended, giving me good piece activity.",
+     "attempt": 1,
+     "move_read": "c8g4",
+     "outcome": "accepted",
+     "time_utc": "2026-10-04 17:29:50.029 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "Black",
+   "fen_after": "r2qkbnr/ppp2pp1/2n4p/3pp3/6b1/5N1N/PPPPPPPP/R1BQKB1R w KQkq - 2 6",
+   "ms": 9600,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 10,
+   "san": "Bg4",
+   "uci": "c8g4"
+  },
+  {
+   "by": "engine",
+   "colour": "White",
+   "fen_after": "r2qkbnr/ppp2pp1/2n4p/3pp3/P5b1/5N1N/1PPPPPPP/R1BQKB1R b KQkq a3 0 6",
+   "ms": 68100,
+   "ms_source": "server",
+   "n": 11,
+   "san": "a4",
+   "uci": "a2a4"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "Looking at this position, I need to assess the key features:\n\n1. Black has a strong pawn center with d5 and e5\n2. The bishop on g4 is actively placed and pinning/attacking White's pieces\n3. I still need to develop my kingside (Nf6 is coming anyway)\n\nWhite's knight on h3 is somewhat awkwardly placed, and White's development is slow. A natural move is to continue developing by bringing out my knight to f6, which:\n- Develops a piece\n- Supports the center\n- Prepares to castle kingside\n- Maintains flexibility\n\nThis is a solid, principled developing move that puts pressure on White's center while I complete my development.\n\nMOVE: g8f6",
+     "attempt": 1,
+     "move_read": "g8f6",
+     "outcome": "accepted",
+     "time_utc": "2026-10-04 17:31:10.208 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "Black",
+   "fen_after": "r2qkb1r/ppp2pp1/2n2n1p/3pp3/P5b1/5N1N/1PPPPPPP/R1BQKB1R w KQkq - 1 7",
+   "ms": 11700,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 12,
+   "san": "Nf6",
+   "uci": "g8f6"
+  },
+  {
+   "by": "engine",
+   "colour": "White",
+   "fen_after": "r2qkb1r/ppp2pp1/2n2n1p/3pp3/P5b1/1P3N1N/2PPPPPP/R1BQKB1R b KQkq - 0 7",
+   "ms": 59745,
+   "ms_source": "server",
+   "n": 13,
+   "san": "b3",
+   "uci": "b2b3"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "Looking at this position, I need to assess the key features:\n\n- My bishop on g4 is actively placed and attacking White's knight on f3\n- White has a somewhat unusual setup with the h3 knight out of play\n- I have good central control with pawns on d5 and e5\n- My knight on f6 can jump to the strong central square e4\n\nThe most natural and strong move is to centralize my knight, which also attacks White's f3 knight and puts pressure on White's position.\n\nMOVE: f6e4\n\nThis centralizes my knight to an excellent square, attacks the f3 knight, and maintains the initiative.",
+     "attempt": 1,
+     "move_read": "f6e4",
+     "outcome": "accepted",
+     "time_utc": "2026-10-04 17:32:24.296 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "Black",
+   "fen_after": "r2qkb1r/ppp2pp1/2n4p/3pp3/P3n1b1/1P3N1N/2PPPPPP/R1BQKB1R w KQkq - 1 8",
+   "ms": 13600,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 14,
+   "san": "Ne4",
+   "uci": "f6e4"
+  },
+  {
+   "by": "engine",
+   "colour": "White",
+   "fen_after": "r2qkb1r/ppp2pp1/2n4p/3pp3/P1P1n1b1/1P3N1N/3PPPPP/R1BQKB1R b KQkq c3 0 8",
+   "ms": 92917,
+   "ms_source": "server",
+   "n": 15,
+   "san": "c4",
+   "uci": "c2c4"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "Looking at this position, I need to evaluate Black's opportunities. My knight on e4 is excellently centralized, and my bishop on g4 is pinning White's f3 knight to the king.\n\nI notice that the f3 knight is particularly vulnerable due to the pin. The move **Nxf2+** is a forcing knight fork that checks the White king and wins material:\n\n- The knight on e4 can capture the f2 pawn with check\n- White's king must move (typically Kxf2, Ke2, or Kd1)\n- This disrupts White's position significantly and gives me a strong initiative\n- Even after Kxf2, I can follow with Bxf3, maintaining material advantage and keeping White's king exposed\n\nMOVE: e4f2",
+     "attempt": 1,
+     "move_read": "e4f2",
+     "outcome": "accepted",
+     "time_utc": "2026-10-04 17:34:13.305 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "Black",
+   "fen_after": "r2qkb1r/ppp2pp1/2n4p/3pp3/P1P3b1/1P3N1N/3PPnPP/R1BQKB1R w KQkq - 0 9",
+   "ms": 15300,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 16,
+   "san": "Nxf2",
+   "uci": "e4f2"
+  },
+  {
+   "by": "engine",
+   "colour": "White",
+   "fen_after": "r2qkb1r/ppp2pp1/2n4p/3pp3/P1P3b1/1P3N2/3PPNPP/R1BQKB1R b KQkq - 0 9",
+   "ms": 77386,
+   "ms_source": "server",
+   "n": 17,
+   "san": "Nxf2",
+   "uci": "h3f2"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "Looking at this position, Black has a powerful forcing move available.\n\nThe Black bishop on g4 can capture the undefended knight on f2 with check: **Bxf2+**. This forces White's king to move (likely Kd1 or Kf1), and Black wins the knight cleanly.\n\nMOVE: g4f2",
+     "attempt": 1,
+     "message_sent_back": "The move g4f2 is not legal in this position.",
+     "move_read": "g4f2",
+     "outcome": "rejected",
+     "time_utc": "2026-10-04 17:35:39.888 UTC"
+    },
+    {
+     "answer_text": "You're right, I apologize for the error. The bishop on g4 cannot reach f2 as they're not on the same diagonal.\n\nLet me reconsider. Looking at Black's natural moves, I'll play:\n\nMOVE: d5c4\n\nThis captures the c4 pawn, winning material.",
+     "attempt": 2,
+     "move_read": "d5c4",
+     "outcome": "accepted",
+     "time_utc": "2026-10-04 17:35:47.587 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "Black",
+   "fen_after": "r2qkb1r/ppp2pp1/2n4p/4p3/P1p3b1/1P3N2/3PPNPP/R1BQKB1R w KQkq - 0 10",
+   "ms": 16600,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 18,
+   "san": "dxc4",
+   "uci": "d5c4"
+  },
+  {
+   "by": "engine",
+   "colour": "White",
+   "fen_after": "r2qkb1r/ppp2pp1/2n4p/4p3/P1p3N1/1P3N2/3PP1PP/R1BQKB1R b KQkq - 0 10",
+   "ms": 68518,
+   "ms_source": "server",
+   "n": 19,
+   "san": "Nxg4",
+   "uci": "f2g4"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "Looking at this position, I need to find an active move that improves Black's coordination and piece placement.\n\nThe position has become fairly tactical. White just captured my bishop on g4 with Nxg4. I notice that my knight on c6 is well-placed to centralize with impact.\n\nNd4 is the strong move here - it centralizes my knight powerfully, attacks multiple pieces (including f3 and e2), and creates real threats while maintaining pressure on White's position. This also supports my c4 pawn and opens up possibilities for my bishop development.\n\nMOVE: c6d4",
+     "attempt": 1,
+     "move_read": "c6d4",
+     "outcome": "accepted",
+     "time_utc": "2026-10-04 17:37:10.866 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "Black",
+   "fen_after": "r2qkb1r/ppp2pp1/7p/4p3/P1pn2N1/1P3N2/3PP1PP/R1BQKB1R w KQkq - 1 11",
+   "ms": 13700,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 20,
+   "san": "Nd4",
+   "uci": "c6d4"
+  },
+  {
+   "by": "engine",
+   "colour": "White",
+   "fen_after": "r2qkb1r/ppp2pp1/7p/4p3/P1Pn2N1/5N2/3PP1PP/R1BQKB1R b KQkq - 0 11",
+   "ms": 59858,
+   "ms_source": "server",
+   "n": 21,
+   "san": "bxc4",
+   "uci": "b3c4"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "MOVE: d4f3\n\nThe knight on d4 captures the knight on f3 with check, forcing White's king to respond while I win material.",
+     "attempt": 1,
+     "move_read": "d4f3",
+     "outcome": "accepted",
+     "time_utc": "2026-10-04 17:38:21.142 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "Black",
+   "fen_after": "r2qkb1r/ppp2pp1/7p/4p3/P1P3N1/5n2/3PP1PP/R1BQKB1R w KQkq - 0 12",
+   "ms": 9700,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 22,
+   "san": "Nxf3+",
+   "uci": "d4f3"
+  },
+  {
+   "by": "engine",
+   "colour": "White",
+   "fen_after": "r2qkb1r/ppp2pp1/7p/4p3/P1P3N1/5P2/3P2PP/R1BQKB1R b KQkq - 0 12",
+   "ms": 14829,
+   "ms_source": "server",
+   "n": 23,
+   "san": "exf3",
+   "uci": "e2f3"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "Looking at this position, I need to develop my pieces and improve my position after the sharp opening play.\n\nThe critical features are:\n- My bishop on f8 needs to be developed\n- White's king is still in the center\n- My king on f8 needs to find safety\n- The e5 pawn is advanced but somewhat isolated\n\n**MOVE: c8e6**\n\nThis develops my light-squared bishop to an active square where it controls key central squares (d5, f5), prepares to potentially support my pieces, and keeps options open for future moves like Qd7 or moving my king to safety.",
+     "attempt": 1,
+     "message_sent_back": "The move c8e6 is not legal in this position.",
+     "move_read": "c8e6",
+     "outcome": "rejected",
+     "time_utc": "2026-10-04 17:38:45.039 UTC"
+    },
+    {
+     "answer_text": "You're right, I apologize. Looking at the board more carefully, the bishop is on f8, not c8.\n\n**MOVE: f8e7**\n\nDeveloping the bishop to a more flexible square, supporting the center and preparing to improve my position.",
+     "attempt": 2,
+     "move_read": "f8e7",
+     "outcome": "accepted",
+     "time_utc": "2026-10-04 17:38:50.927 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "Black",
+   "fen_after": "r2qk2r/ppp1bpp1/7p/4p3/P1P3N1/5P2/3P2PP/R1BQKB1R w KQkq - 1 13",
+   "ms": 14600,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 24,
+   "san": "Be7",
+   "uci": "f8e7"
+  },
+  {
+   "by": "engine",
+   "colour": "White",
+   "fen_after": "r2qk2r/ppp1bpp1/7p/4N3/P1P5/5P2/3P2PP/R1BQKB1R b KQkq - 0 13",
+   "ms": 24479,
+   "ms_source": "server",
+   "n": 25,
+   "san": "Nxe5",
+   "uci": "g4e5"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "Looking at this position, White has just captured on e5 with the knight, which is now attacking several important squares.\n\nI need to deal with this centralized knight. The key move is to attack it with my queen while also pressuring White's weak points.\n\n**Qd5** attacks both the knight on e5 and the pawn on c4, creating immediate threats that White cannot adequately address simultaneously. The knight will be forced to move, allowing me to capture on c4 and improve my position.\n\nMOVE: d8d5",
+     "attempt": 1,
+     "move_read": "d8d5",
+     "outcome": "accepted",
+     "time_utc": "2026-10-04 17:39:26.723 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "Black",
+   "fen_after": "r3k2r/ppp1bpp1/7p/3qN3/P1P5/5P2/3P2PP/R1BQKB1R w KQkq - 1 14",
+   "ms": 10500,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 26,
+   "san": "Qd5",
+   "uci": "d8d5"
+  },
+  {
+   "by": "engine",
+   "colour": "White",
+   "fen_after": "r3k2r/ppp1bpp1/7p/3PN3/P7/5P2/3P2PP/R1BQKB1R b KQkq - 0 14",
+   "ms": 53292,
+   "ms_source": "server",
+   "n": 27,
+   "san": "cxd5",
+   "uci": "c4d5"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "Looking at this position, White has just captured my queen on d5 with the pawn, but this pawn is now undefended.\n\nMy bishop on e7 can simply capture it with Bxd5, centralizing my bishop while removing White's advanced pawn. This is a strong consolidating move that helps me recover material and improve my piece coordination.\n\nMOVE: e7d5",
+     "attempt": 1,
+     "message_sent_back": "The move e7d5 is not legal in this position.",
+     "move_read": "e7d5",
+     "outcome": "rejected",
+     "time_utc": "2026-10-04 17:40:32.619 UTC"
+    },
+    {
+     "answer_text": "Let me reconsider the position. The bishop on e7 cannot actually reach d5 diagonally - I made an error.\n\nLet me look for the best move available. I'll centralize my king and prepare to activate my pieces.\n\nMOVE: e8d7",
+     "attempt": 2,
+     "message_sent_back": "The move e8d7 is not legal in this position.",
+     "move_read": "e8d7",
+     "outcome": "rejected",
+     "time_utc": "2026-10-04 17:40:43.408 UTC"
+    },
+    {
+     "answer_text": "Let me carefully reread the position and legal moves available.\n\nLooking at my pieces:\n- King on e8\n- Rooks on a8 and h8  \n- Bishop on e7\n- Pawns on a7, b7, c7, f7, g7, h6\n\nI'll move my rook from h8 to f8 to connect my rooks and prepare to activate my position.\n\nMOVE: h8f8",
+     "attempt": 3,
+     "move_read": "h8f8",
+     "outcome": "accepted",
+     "time_utc": "2026-10-04 17:40:54.577 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "Black",
+   "fen_after": "r3kr2/ppp1bpp1/7p/3PN3/P7/5P2/3P2PP/R1BQKB1R w KQq - 1 15",
+   "ms": 34200,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 28,
+   "san": "Rf8",
+   "uci": "h8f8"
+  },
+  {
+   "by": "engine",
+   "colour": "White",
+   "fen_after": "r3kr2/ppp1bpp1/7p/1B1PN3/P7/5P2/3P2PP/R1BQK2R b KQq - 2 15",
+   "ms": 22806,
+   "ms_source": "server",
+   "n": 29,
+   "san": "Bb5+",
+   "uci": "f1b5"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "Looking at this position, Black's king on e8 is in check from the White bishop on b5 along the long diagonal (b5-c6-d7-e8).\n\nI need to deal with this check. The most natural move is to block it by advancing the c-pawn, which also develops control of the center.\n\nMOVE: c7c6\n\nThis blocks the check while positioning the pawn solidly in the center.",
+     "attempt": 1,
+     "move_read": "c7c6",
+     "outcome": "accepted",
+     "time_utc": "2026-10-04 17:41:26.982 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "Black",
+   "fen_after": "r3kr2/pp2bpp1/2p4p/1B1PN3/P7/5P2/3P2PP/R1BQK2R w KQq - 0 16",
+   "ms": 8100,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 30,
+   "san": "c6",
+   "uci": "c7c6"
+  },
+  {
+   "by": "engine",
+   "colour": "White",
+   "fen_after": "r3kr2/pp2bpp1/2P4p/1B2N3/P7/5P2/3P2PP/R1BQK2R b KQq - 0 16",
+   "ms": 36774,
+   "ms_source": "server",
+   "n": 31,
+   "san": "dxc6",
+   "uci": "d5c6"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "Looking at this position, White has a dangerous passed pawn on c6 that is threatening to advance to c7. Black is in a critical situation and must immediately address this threat.\n\nThe most urgent task is to control the c-file and prevent the pawn's further advance. Moving the rook from a8 to c8 will:\n1. Challenge the c6 pawn on the c-file\n2. Potentially pin the pawn if it advances to c7 (since moving it would expose the king)\n3. Give Black some practical counterplay\n\nMOVE: a8c8",
+     "attempt": 1,
+     "move_read": "a8c8",
+     "outcome": "accepted",
+     "time_utc": "2026-10-04 17:42:12.627 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "Black",
+   "fen_after": "2r1kr2/pp2bpp1/2P4p/1B2N3/P7/5P2/3P2PP/R1BQK2R w KQ - 1 17",
+   "ms": 8200,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 32,
+   "san": "Rc8",
+   "uci": "a8c8"
+  },
+  {
+   "by": "engine",
+   "colour": "White",
+   "fen_after": "2r1kr2/ppP1bpp1/7p/1B2N3/P7/5P2/3P2PP/R1BQK2R b KQ - 0 17",
+   "ms": 45420,
+   "ms_source": "server",
+   "n": 33,
+   "san": "c7#",
+   "uci": "c6c7"
+  }
+ ],
+ "notes": [],
+ "reason": "checkmate",
+ "rejected_answers": 4,
+ "result": "1-0",
+ "series": "premiere-2026-10-04",
+ "start_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+ "start_utc": "2026-10-04 17:26:51.076 UTC",
+ "unplayed_turn": null,
+ "white": "engine",
+ "winner": "engine"
+}

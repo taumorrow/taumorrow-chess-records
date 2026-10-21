@@ -1,0 +1,1708 @@
+{
+ "black": "engine",
+ "duration_s": 4182,
+ "end_utc": "2026-10-18 22:26:13.091 UTC",
+ "final_fen": "k7/1Q6/2B3K1/1p6/1P6/2P5/8/8 b - - 0 55",
+ "game": 9,
+ "half_moves": 109,
+ "model": "Claude Sonnet 5.5 · Thinking",
+ "model_answers": 60,
+ "model_colour": "White",
+ "moves": [
+  {
+   "attempts": [
+    {
+     "answer_text": "MOVE: e2e4\n\nI'm opening with the king's pawn to take the center and open lines for my bishop and queen.",
+     "attempt": 1,
+     "move_read": "e2e4",
+     "outcome": "accepted",
+     "thinking_summary": null,
+     "time_utc": "2026-10-18 21:16:33.625 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+   "ms": 1300,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 1,
+   "san": "e4",
+   "uci": "e2e4"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "r1bqkbnr/pppppppp/2n5/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 1 2",
+   "ms": 10948,
+   "ms_source": "server",
+   "n": 2,
+   "san": "Nc6",
+   "uci": "b8c6"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "MOVE: d2d4\n\nI'm taking the center with the d-pawn against 1...Nc6.",
+     "attempt": 1,
+     "move_read": "d2d4",
+     "outcome": "accepted",
+     "thinking_summary": null,
+     "time_utc": "2026-10-18 21:16:46.062 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "r1bqkbnr/pppppppp/2n5/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq d3 0 2",
+   "ms": 1400,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 3,
+   "san": "d4",
+   "uci": "d2d4"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "r1bqkbnr/ppp1pppp/2n5/3p4/3PP3/8/PPP2PPP/RNBQKBNR w KQkq d6 0 3",
+   "ms": 46599,
+   "ms_source": "server",
+   "n": 4,
+   "san": "d5",
+   "uci": "d7d5"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "This is the Scandinavian-like position with ...Nc6, so I'll take the pawn with exd5. After ...Qxd5 I can gain a tempo with Nc3.\n\nMOVE: e4d5",
+     "attempt": 1,
+     "move_read": "e4d5",
+     "outcome": "accepted",
+     "thinking_summary": null,
+     "time_utc": "2026-10-18 21:17:35.365 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "r1bqkbnr/ppp1pppp/2n5/3P4/3P4/8/PPP2PPP/RNBQKBNR b KQkq - 0 3",
+   "ms": 1900,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 5,
+   "san": "exd5",
+   "uci": "e4d5"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "r1b1kbnr/ppp1pppp/2n5/3q4/3P4/8/PPP2PPP/RNBQKBNR w KQkq - 0 4",
+   "ms": 39648,
+   "ms_source": "server",
+   "n": 6,
+   "san": "Qxd5",
+   "uci": "d8d5"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "Develop with tempo: Nc3 attacks the queen, and the d4 pawn is protected by the queen on d1.\n\nMOVE: b1c3",
+     "attempt": 1,
+     "move_read": "b1c3",
+     "outcome": "accepted",
+     "thinking_summary": null,
+     "time_utc": "2026-10-18 21:18:17.231 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "r1b1kbnr/ppp1pppp/2n5/3q4/3P4/2N5/PPP2PPP/R1BQKBNR b KQkq - 1 4",
+   "ms": 1500,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 7,
+   "san": "Nc3",
+   "uci": "b1c3"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "r1b1kbnr/ppp1pppp/2n5/8/3q4/2N5/PPP2PPP/R1BQKBNR w KQkq - 0 5",
+   "ms": 81918,
+   "ms_source": "server",
+   "n": 8,
+   "san": "Qxd4",
+   "uci": "d5d4"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "MOVE: c3b5\n\nI'm a pawn down, so I attack the queen and threaten Nc7+, which would fork the king and the rook on a8.",
+     "attempt": 1,
+     "move_read": "c3b5",
+     "outcome": "accepted",
+     "thinking_summary": "I'm tracing through the opening moves to tally captures—White took the d5 pawn with the e-pawn, then Black recaptured with the queen before grabbing the d4 pawn, so I'm working out the resulting material balance after Qxd4.\n\nNow I'm exploring White's response, considering Nb5 hitting the queen and threatening Nc7+ forking the rook, while checking whether Black can defend adequately with Kd8 or a queen trade.\n\nChecking other queen checks confirms Nb5 holds up everywhere — Qxb2 and Qxf2+ both lose for Black after the bishop or king recaptures, and Qe5+ lines all end with White consolidating the extra material. So Nb5 is the move.",
+     "time_utc": "2026-10-18 21:19:52.595 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "r1b1kbnr/ppp1pppp/2n5/1N6/3q4/8/PPP2PPP/R1BQKBNR b KQkq - 1 5",
+   "ms": 12700,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 9,
+   "san": "Nb5",
+   "uci": "c3b5"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "r1b1kbnr/ppp1pppp/2n5/1N6/1q6/8/PPP2PPP/R1BQKBNR w KQkq - 2 6",
+   "ms": 115472,
+   "ms_source": "server",
+   "n": 10,
+   "san": "Qb4+",
+   "uci": "d4b4"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "MOVE: c2c3\n\nI block the check with the pawn, which also attacks the queen. If the queen takes the knight on b5, Bxb5 wins it, and if it takes b2, Bxb2 does.",
+     "attempt": 1,
+     "move_read": "c2c3",
+     "outcome": "accepted",
+     "thinking_summary": "I notice Black's queen on b4 is giving check along the diagonal to e1, so I need to find a defense—c3 blocking with the pawn looks promising since it also attacks the queen, though I should check if the queen can instead capture the knight on b5.\n\nWorking through it, the knight on b5 is actually protected by the bishop on f1 via the long diagonal, so c3 followed by Qxb5 would lose material for Black since Bxb5 wins the queen for just a knight. I'm also considering the Nc7+ fork threat and checking alternatives like Bd2 or Qd2, but c3 seems to hold everything together while creating real problems for Black's queen.\n\nChecking c3 against Qxb2 — that just loses the queen to Bxb2, so c3 looks safe and solid. I'll go with c3.",
+     "time_utc": "2026-10-18 21:22:00.030 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "r1b1kbnr/ppp1pppp/2n5/1N6/1q6/2P5/PP3PPP/R1BQKBNR b KQkq - 0 6",
+   "ms": 11200,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 11,
+   "san": "c3",
+   "uci": "c2c3"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "r1b1kbnr/ppp1pppp/2n5/1N6/4q3/2P5/PP3PPP/R1BQKBNR w KQkq - 1 7",
+   "ms": 126601,
+   "ms_source": "server",
+   "n": 12,
+   "san": "Qe4+",
+   "uci": "b4e4"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "MOVE: c1e3\n\nI block the check with the bishop, which the f2 pawn protects. This keeps g2 covered by the bishop on f1 and keeps the threat of Nxc7+, which forks the king and the rook on a8.",
+     "attempt": 1,
+     "move_read": "c1e3",
+     "outcome": "accepted",
+     "thinking_summary": "I'm in check from the queen on e4 and need to find a way to block or move out of it—options like Be2, Qe2, Ne2, or Be3 all seem playable, and I should also watch for Black's follow-up threats like Qxb.\n\nActually checking more carefully, the real tactical point is Nb5 threatening Nxc7+, forking the king and rook since c7 isn't properly defended. I also need to be careful that blocking with Be2 leaves g2 undefended to a queen infiltration followed by Bf3 trapping it, so Ne2 looks like the safer way to meet the check while keeping g2 protected.\n\nBe3 looks safe since it's protected by the f2 pawn, and I don't see any way for Black's queen to reach something vulnerable from e4. I'll just play Be3.",
+     "time_utc": "2026-10-18 21:24:19.806 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "r1b1kbnr/ppp1pppp/2n5/1N6/4q3/2P1B3/PP3PPP/R2QKBNR b KQkq - 2 7",
+   "ms": 12500,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 13,
+   "san": "Be3",
+   "uci": "c1e3"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "r1b1kbnr/ppp1pppp/2n5/1N2q3/8/2P1B3/PP3PPP/R2QKBNR w KQkq - 3 8",
+   "ms": 63605,
+   "ms_source": "server",
+   "n": 14,
+   "san": "Qe5",
+   "uci": "e4e5"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "MOVE: g1f3\n\nNf3 attacks the black queen. If it takes the b5 knight, Bxb5 wins the queen for a knight. Once the queen leaves e5, it no longer guards c7, so Nxc7+ becomes a threat against the king and the a8 rook.",
+     "attempt": 1,
+     "move_read": "g1f3",
+     "outcome": "accepted",
+     "thinking_summary": "I'm setting up the position and checking material balance—it looks like White has actually dropped the d-pawn, leaving Black up material.\n\nI'm examining the Nc7+ fork idea, but it's covered by the queen on e5, so that tactic falls short. I'm now looking at Nf3 hitting the queen, weighing lines where Black trades queen for minor pieces versus retreats like Qe4 or Qb-moves, and checking whether the knight on b5 stays protected by the bishop on f1 throughout.",
+     "time_utc": "2026-10-18 21:25:32.781 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "r1b1kbnr/ppp1pppp/2n5/1N2q3/8/2P1BN2/PP3PPP/R2QKB1R b KQkq - 4 8",
+   "ms": 9100,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 15,
+   "san": "Nf3",
+   "uci": "g1f3"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "r3kbnr/ppp1pppp/2n5/1N2q3/6b1/2P1BN2/PP3PPP/R2QKB1R w KQkq - 5 9",
+   "ms": 51668,
+   "ms_source": "server",
+   "n": 16,
+   "san": "Bg4",
+   "uci": "c8g4"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "MOVE: d1d4\n\nI offer a queen trade with an attack on the black queen. If Black takes on d4, I recapture with a knight or the bishop and the position stays equal.",
+     "attempt": 1,
+     "move_read": "d1d4",
+     "outcome": "accepted",
+     "thinking_summary": "I'm setting up the board position, noting the piece placement for both sides, and identifying that Black has a threat against a pawn with the queen.\n\nActually Nb5 is defended by Bf1, so I'm checking if Nxc7+ works as a fork, but it loses the knight to Qxc7. I'm also weighing Qd4 as a way to offer a queen trade while keeping tactics on c7 and f3 in play.\n\nI'm checking that Qa4 does indeed hit Bg4 along the rank, then working through the resulting tactics after Bxf3 or Qxb5 responses, but I'm settling on Qd4 as the simpler, solid choice after verifying the exchanges hold up.\n\nAfter the recaptures the material comes out roughly equal, so this line doesn't gain anything concrete.",
+     "time_utc": "2026-10-18 21:26:39.137 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "r3kbnr/ppp1pppp/2n5/1N2q3/3Q2b1/2P1BN2/PP3PPP/R3KB1R b KQkq - 6 9",
+   "ms": 14500,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 17,
+   "san": "Qd4",
+   "uci": "d1d4"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "r3kbnr/ppp1pppp/2n5/1N2q3/3Q4/2P1Bb2/PP3PPP/R3KB1R w KQkq - 0 10",
+   "ms": 56324,
+   "ms_source": "server",
+   "n": 18,
+   "san": "Bxf3",
+   "uci": "g4f3"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "MOVE: d4e5\nTrade queens, then recapture on f3 with the g-pawn, keeping the Nc7+ fork on the king and a8 rook in reserve.",
+     "attempt": 1,
+     "move_read": "d4e5",
+     "outcome": "accepted",
+     "thinking_summary": "Looking at this position, I'm checking whether Qxe5 leads anywhere good, since Nc7+ could fork the king and rook after the queen trade, but I need to verify the knight recapture on e5 and bishop interactions don't spoil it.\n\nI'm still checking these tactical lines after Qxe5 Nxe5, trying variations like Nc7+ and gxf3 to see which nets material cleanly, since Rxh2 recaptures the knight and keeps things messy.\n\nI recapture the bishop so material stays even, and with Nc7+ still looming I just play Qxe5.",
+     "time_utc": "2026-10-18 21:27:47.938 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "r3kbnr/ppp1pppp/2n5/1N2Q3/8/2P1Bb2/PP3PPP/R3KB1R b KQkq - 0 10",
+   "ms": 12000,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 19,
+   "san": "Qxe5",
+   "uci": "d4e5"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "r3kbnr/ppp1pppp/8/1N2n3/8/2P1Bb2/PP3PPP/R3KB1R w KQkq - 0 11",
+   "ms": 96710,
+   "ms_source": "server",
+   "n": 20,
+   "san": "Nxe5",
+   "uci": "c6e5"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "MOVE: b5c7\nNxc7+ forks the king on e8 and the rook on a8, so I win the rook next move. Black's bishop on f3 cannot take h1 because my pawn on g2 blocks it.",
+     "attempt": 1,
+     "move_read": "b5c7",
+     "outcome": "accepted",
+     "thinking_summary": "I'm setting up this chess position with White's king on e1 and pieces developed, versus Black's knights on e5 and g8. I notice Black's bishop on f3 is eyeing the g2 pawn, creating an immediate tactical threat.\n\nMeanwhile, I'm exploring whether Nxc7+ forks the king and rook on a8. After Kd7, Nxa8 wins material, but Black can respond with Bxg2 since Bf1 doesn't guard that square directly—pawn g2 is the only defender, and if Black captures there, I can recapture with Bxg2 and then play Nf3+, forking the king and another piece.",
+     "time_utc": "2026-10-18 21:29:34.745 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "r3kbnr/ppN1pppp/8/4n3/8/2P1Bb2/PP3PPP/R3KB1R b KQkq - 0 11",
+   "ms": 9200,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 21,
+   "san": "Nxc7+",
+   "uci": "b5c7"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "r2k1bnr/ppN1pppp/8/4n3/8/2P1Bb2/PP3PPP/R3KB1R w KQ - 1 12",
+   "ms": 8093,
+   "ms_source": "server",
+   "n": 22,
+   "san": "Kd8",
+   "uci": "e8d8"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "MOVE: c7a8\n\nI'm taking the rook on a8 with the knight to win the exchange. If Black then plays Bxg2, Bxg2 wins that bishop.",
+     "attempt": 1,
+     "move_read": "c7a8",
+     "outcome": "accepted",
+     "thinking_summary": "I'm setting up the board: a knight on c7 forking the king and rook, with a black bishop on f3 threatening the g2 pawn and h1 rook, trying to map out all the piece positions on both sides before evaluating the tactics.\n\nTaking Nxa8 wins the exchange outright, and even after Bxg2 Bxg2 Nd3+ lines, I'm still up material since black can't recoup enough compensation for the lost rook. I'll go with Nxa8.",
+     "time_utc": "2026-10-18 21:29:51.525 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "N2k1bnr/pp2pppp/8/4n3/8/2P1Bb2/PP3PPP/R3KB1R b KQ - 0 12",
+   "ms": 7700,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 23,
+   "san": "Nxa8",
+   "uci": "c7a8"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "N2k1bnr/pp2pppp/8/3bn3/8/2P1B3/PP3PPP/R3KB1R w KQ - 1 13",
+   "ms": 24847,
+   "ms_source": "server",
+   "n": 24,
+   "san": "Bd5",
+   "uci": "f3d5"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "MOVE: a1d1\n\nThe rook on d1 pins the bishop on d5 to the king, so Black's bishop cannot capture my knight on a8.",
+     "attempt": 1,
+     "move_read": "a1d1",
+     "outcome": "accepted",
+     "thinking_summary": "I'm setting up the board position and noticing the black bishop on d5 attacks the knight on a8, which looks trapped and vulnerable.\n\nCounting it out more carefully, the material looks roughly balanced once the a8 knight falls—White's rooks and bishops about matching Black's rook, bishops and knights. I'm looking for a way to salvage the knight or create compensation, maybe pinning the d5 bishop with Rd1 before taking on a8.\n\nChecking Nd3+ doesn't quite work since Bxd3 refutes it, and the bishop's only real defense is the king itself. Moves like Nc4 or Kc8 don't actually save the bishop since neither defends d5, so Black seems forced into Ke8, after which Rxd5 simply wins the bishop outright.\n\nI check Nf3+ gxf3 and Nc4 tactics but neither seems to break through cleanly for Black, so Rd1 remains the solid choice.",
+     "time_utc": "2026-10-18 21:30:35.021 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "N2k1bnr/pp2pppp/8/3bn3/8/2P1B3/PP3PPP/3RKB1R b K - 2 13",
+   "ms": 18100,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 25,
+   "san": "Rd1",
+   "uci": "a1d1"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "N2k1b1r/pp2pppp/5n2/3bn3/8/2P1B3/PP3PPP/3RKB1R w K - 3 14",
+   "ms": 27967,
+   "ms_source": "server",
+   "n": 26,
+   "san": "Nf6",
+   "uci": "g8f6"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "MOVE: d1d5\nRxd5+ forces Nxd5, and then Nxb7+ with check frees the trapped knight and wins a pawn, leaving material level.",
+     "attempt": 1,
+     "move_read": "d1d5",
+     "outcome": "accepted",
+     "thinking_summary": "I'm setting up the board position, noting White's pieces versus Black's, and checking how the rook on d1 pressures the bishop on d5.\n\nActually that knight on a8 is trapped, so I'm weighing Nxb7+ to grab a pawn though it loses the piece for little. I'm also checking Black's tactical tries like Nd3+ and Nc4 forking the bishop, trying to count material to see if White is actually down a pawn or roughly even.\n\nTrying Rxd5+ just trades rook for knight, losing material further, so that's bad. Bc4 offering another trade doesn't help either since Black just takes it with bishop or knight, and I'm not finding a way to recover the lost piece.\n\nLet me consider Bg5 instead, pinning or pressuring the f6 knight, but Black seems to have defensive resources there too with Nd3+ tactics.\n\nChecking Nxb7+ lines more carefully — after Bxb7, the bishop leaves the d-file, so Rxd5+ followed by Nxd5 might not work cleanly since Nxb7+ with Kc7 lets the king attack the knight, so I need to find a retreat square like Na5.\n\nMaterial-wise, trading R for B+pawn while the knight escapes leaves things roughly equal: White ends with R+2B+N versus Black's R+B+2N, both worth 14 points, so the knight really does need to get out safely for this to work.\n\nChecking the forcing line further: Rxd5+ Nxd5 Nxb7+ Kc7, Na5 Nxe3 fxe3 Nd3+ Bxd3 all works out fine for the sequence. I'll go with Rxd5+.",
+     "time_utc": "2026-10-18 21:31:25.269 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "N2k1b1r/pp2pppp/5n2/3Rn3/8/2P1B3/PP3PPP/4KB1R b K - 0 14",
+   "ms": 21700,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 27,
+   "san": "Rxd5+",
+   "uci": "d1d5"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "N2k1b1r/pp2pppp/8/3nn3/8/2P1B3/PP3PPP/4KB1R w K - 0 15",
+   "ms": 35549,
+   "ms_source": "server",
+   "n": 28,
+   "san": "Nxd5",
+   "uci": "f6d5"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "MOVE: e3a7\n\nThe knight on a8 is trapped, so I take the a7 pawn. That gives the knight b6 as an escape square, defended by the bishop on a7.",
+     "attempt": 1,
+     "move_read": "e3a7",
+     "outcome": "accepted",
+     "thinking_summary": "I'm setting up the position and tallying material: White has a rook, two bishops, a knight, and six pawns, while Black has a rook, two knights, a bishop, and six pawns—so material looks roughly balanced.\n\nThat said, the knight on a8 looks trapped, so I'm working through whether Black can simply trap and win it with Kc8-b8, or whether White can save it with Bxa7, opening an escape square on b6 while giving up a pawn, and checking if Black can respond with ...b6 or ...Nc4 to cause trouble.\n\nChecking Black's Nc4 response too, but Bxa7 still looks solid either way.",
+     "time_utc": "2026-10-18 21:32:11.921 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "N2k1b1r/Bp2pppp/8/3nn3/8/2P5/PP3PPP/4KB1R b K - 0 15",
+   "ms": 10900,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 29,
+   "san": "Bxa7",
+   "uci": "e3a7"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "N2k1b1r/Bp2p1pp/8/3nnp2/8/2P5/PP3PPP/4KB1R w K f6 0 16",
+   "ms": 25299,
+   "ms_source": "server",
+   "n": 30,
+   "san": "f5",
+   "uci": "f7f5"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "MOVE: a8b7\nNxb7+ wins a pawn with check and brings the trapped knight back into play.",
+     "attempt": 1,
+     "message_sent_back": "The move a8b7 is not legal in this position.",
+     "move_read": "a8b7",
+     "outcome": "rejected",
+     "thinking_summary": "I'm setting up the board position, noting White has two bishops, a knight and rook against Black's bishop, rook and two knights, with White ahead in pawns too.\n\nI'm checking the tactical motifs here: the Na8 knight looks awkward but Nxb7+ actually works, forking the king and grabbing a pawn, and I'm working through Black's responses like Kc7 attacking the knight afterward.\n\nThat line doesn't work either. Let me just go with Nxb7+ Kc7, then after Na5 the knight is awkward but holds, and Bd4 trades can simplify fine; Kc8 lines with Nc5 Bxc5 look forced but manageable too. I'll commit to Nxb7+.",
+     "time_utc": "2026-10-18 21:32:50.236 UTC"
+    },
+    {
+     "answer_text": "MOVE: a8b6\nMy earlier move was illegal. The knight on a8 is attacked by the b7 pawn, so it goes to b6, where Nxb6 Bxb6+ would trade it off with check.",
+     "attempt": 2,
+     "move_read": "a8b6",
+     "outcome": "accepted",
+     "thinking_summary": "I'm mapping out the board position piece by piece—kings, bishops, knights, pawns—to get the full picture before checking what moves are available, starting with the knight on a8 which can only go to b6.\n\nThe knight on a8 is actually under attack from the pawn on b7, so it needs to move—either to b6 or c7. Checking c7, it's attacked by the black king with no protection, so Nb6 looks safer, though I notice Nd5 can capture it there, leading to a trade where Bxb6+ gives check.\n\nAfter working through that sequence to Ke8, the material ends up roughly balanced between both sides, so Nb6 seems like the right practical choice here.",
+     "time_utc": "2026-10-18 21:32:59.720 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "3k1b1r/Bp2p1pp/1N6/3nnp2/8/2P5/PP3PPP/4KB1R b K - 1 16",
+   "ms": 22300,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 31,
+   "san": "Nb6",
+   "uci": "a8b6"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "3k1b1r/Bp4pp/1N2p3/3nnp2/8/2P5/PP3PPP/4KB1R w K - 0 17",
+   "ms": 116711,
+   "ms_source": "server",
+   "n": 32,
+   "san": "e6",
+   "uci": "e7e6"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "MOVE: b6d5\n\nI take the d5 knight with my knight, since it is attacking mine. If Black recaptures with the e-pawn, Bb6+ comes with check and I keep my extra pawn.",
+     "attempt": 1,
+     "move_read": "b6d5",
+     "outcome": "accepted",
+     "thinking_summary": "I'm mapping out the board, noting that Black's knight on d5 is attacking both the knight on b6 and the c3 pawn, and checking what defends b6.\n\nTaking on d5 with the knight, recapturing with the e-pawn, opens a discovered idea where the bishop on a7 can swing to b6 with check along the a7-d8 diagonal. I'm comparing material — White is up a pawn with two bishops, a knight and rook versus Black's rook, bishop and two knights — while also watching for Black counterplay like a knight fork landing on d3.",
+     "time_utc": "2026-10-18 21:35:07.003 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "3k1b1r/Bp4pp/4p3/3Nnp2/8/2P5/PP3PPP/4KB1R b K - 0 17",
+   "ms": 9800,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 33,
+   "san": "Nxd5",
+   "uci": "b6d5"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "3k1b1r/Bp4pp/8/3pnp2/8/2P5/PP3PPP/4KB1R w K - 0 18",
+   "ms": 63997,
+   "ms_source": "server",
+   "n": 34,
+   "san": "exd5",
+   "uci": "e6d5"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "MOVE: a7b7\nBxb7 wins a pawn, and the bishop stays safe: if ...Rb8 attacks it, Bxd5+ comes with check.",
+     "attempt": 1,
+     "message_sent_back": "The move a7b7 is not legal in this position.",
+     "move_read": "a7b7",
+     "outcome": "rejected",
+     "thinking_summary": "I'm cataloguing the pieces on the board for both sides and tallying material: White has two bishops and a rook against Black's rook, bishop, and knight, with White slightly ahead in pawns too.\n\nNow I'm looking at Ba7 and whether it's trapped by ...b6, but I'm finding it can jump out with Bb6+ or simply grab the pawn with Bxb7. Checking the follow-ups, Bxb7 looks safe since any attack with ...Rb8 just lets the bishop hop to d5 with check, so I'll go with capturing on b7.",
+     "time_utc": "2026-10-18 21:36:19.381 UTC"
+    },
+    {
+     "answer_text": "MOVE: a7b6\nBb6+ checks the king and keeps the bishop safe. My earlier a7b7 was illegal because a bishop can't move along a rank.",
+     "attempt": 2,
+     "move_read": "a7b6",
+     "outcome": "accepted",
+     "thinking_summary": "I'm setting up the board: White has a bishop on a7, king e1, bishop f1, pawns and a rook on h1, while Black has king d8, bishop f8, rook h8, pawns, and a knight on e5. I'm tracing the a7 bishop's diagonal options toward b6, c5, d4, and beyond.\n\nChecking Bb6+ — it hits the king on the a7-g1 style diagonal, forcing a reply like Kc8 or Ke8. I'm also weighing Bd4 to attack the knight on e5, though Black can defend with Nc6, Nc4, or Nd7, and I'm tallying material to confirm White isn't actually down anything significant.\n\nChecking the bishop's diagonal confirms it can't reach d5 directly, so I'll just go with Bb6+ as the simplest, safe choice.",
+     "time_utc": "2026-10-18 21:36:29.527 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "3k1b1r/1p4pp/1B6/3pnp2/8/2P5/PP3PPP/4KB1R b K - 1 18",
+   "ms": 18200,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 35,
+   "san": "Bb6+",
+   "uci": "a7b6"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "2k2b1r/1p4pp/1B6/3pnp2/8/2P5/PP3PPP/4KB1R w K - 2 19",
+   "ms": 26657,
+   "ms_source": "server",
+   "n": 36,
+   "san": "Kc8",
+   "uci": "d8c8"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "MOVE: f1e2\n\nI'm developing the bishop so I can castle kingside, and it keeps the king safe from the Nd3+ fork.",
+     "attempt": 1,
+     "move_read": "f1e2",
+     "outcome": "accepted",
+     "thinking_summary": "I'm piecing together the board setup, noting White has two bishops, a rook, and six pawns against Black's bishop, knight, rook, and five pawns, and comparing the material balance between the sides.\n\nI'm checking for tactical threats, like a knight fork on d3, and looking at whether Bb6 is defended. I'm exploring Bd4 as a candidate move since it attacks the knight on e5, then walking through Black's responses like Nd3+ or Nc6 followed by exchanges on g7 to see what White can win.\n\nInstead I think the simpler plan is to just develop quietly with Be2 and prepare to castle, checking that Black's knight jumps to d3 or c4 don't cause real problems since they're met by straightforward recaptures.",
+     "time_utc": "2026-10-18 21:37:07.128 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "2k2b1r/1p4pp/1B6/3pnp2/8/2P5/PP2BPPP/4K2R b K - 3 19",
+   "ms": 10000,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 37,
+   "san": "Be2",
+   "uci": "f1e2"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "2k4r/1p4pp/1B1b4/3pnp2/8/2P5/PP2BPPP/4K2R w K - 4 20",
+   "ms": 114819,
+   "ms_source": "server",
+   "n": 38,
+   "san": "Bd6",
+   "uci": "f8d6"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "MOVE: e1g1\n\nI'm castling kingside to get the king safe and bring the rook into play while keeping the extra pawn.",
+     "attempt": 1,
+     "move_read": "e1g1",
+     "outcome": "accepted",
+     "thinking_summary": "Let me map out the position: White has king, rook, two bishops, and six pawns, while Black has king, rook, bishop, knight, and five pawns. I'm tallying up material to see that White is up a pawn in this endgame.\n\nI'm scanning for tactics—checking if Black has any dangerous knight forks or bishop sacrifices on h2, and whether castling kingside is safe for White given potential Nf3+ or Ng4+ ideas. Working through these lines, it looks like White comes out ahead material-wise if Black tries any of these sacrificial attempts.\n\nCastling looks solid since Bb6 isn't under attack, so I'll go with kingside castling.",
+     "time_utc": "2026-10-18 21:39:12.738 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "2k4r/1p4pp/1B1b4/3pnp2/8/2P5/PP2BPPP/5RK1 b - - 5 20",
+   "ms": 9800,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 39,
+   "san": "O-O",
+   "uci": "e1g1"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "2k4r/1p5p/1B1b4/3pnpp1/8/2P5/PP2BPPP/5RK1 w - g6 0 21",
+   "ms": 23255,
+   "ms_source": "server",
+   "n": 40,
+   "san": "g5",
+   "uci": "g7g5"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "MOVE: f1d1\n\nRd1 puts pressure on the d5 pawn, and Black's rook cannot defend it from d8 because my bishop on b6 covers that square.",
+     "attempt": 1,
+     "move_read": "f1d1",
+     "outcome": "accepted",
+     "thinking_summary": "I'm setting up the position: White has rook, two bishops, and six pawns versus Black's rook, bishop, knight, and five pawns, so I'm tallying material to confirm White is up a pawn.\n\nI'm checking Black's knight-based tactics—ideas like Nd3 or Nf3+ with discovered threats on h2—and finding they don't quite work since the bishop or king can handle them. I'm also scanning for active plans like Rd1 pressuring d5, though I notice Black's rook can defend it from d8.\n\nChecking other tactical tries like Nc6, Nf3+, Ng4 against Rd1 all seem to hold up fine for White. Rd1 looks solid, so I'll play that.",
+     "time_utc": "2026-10-18 21:39:48.055 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "2k4r/1p5p/1B1b4/3pnpp1/8/2P5/PP2BPPP/3R2K1 b - - 1 21",
+   "ms": 11800,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 41,
+   "san": "Rd1",
+   "uci": "f1d1"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "2k3r1/1p5p/1B1b4/3pnpp1/8/2P5/PP2BPPP/3R2K1 w - - 2 22",
+   "ms": 361575,
+   "ms_source": "server",
+   "n": 42,
+   "san": "Rg8",
+   "uci": "h8g8"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "MOVE: d1d5\n\nI'm taking the undefended d5 pawn. The rook then attacks the d6 bishop and the e5 knight, and the d6 bishop is the knight's only protector.",
+     "attempt": 1,
+     "move_read": "d1d5",
+     "outcome": "accepted",
+     "thinking_summary": "Let me set up the board: Black has king, rook, knight, bishop and pawns on b7, h7, d5, f5, g5, while White has king, rook, two bishops and pawns on a2, b2, c3, f2, g2, h2, with White to move. Comparing material, White holds a rook and two bishops against Black's rook, bishop and knight, plus an extra pawn.\n\nI'm looking for threats and tactics -- checking if Nd3 forks anything, whether Bb6 or Bd6 are hanging, and whether Rxd5 works since it attacks both the bishop on d6 and knight on e5 simultaneously. I'm also testing a sacrifice line starting with Bxh2+ Kxh2 to see if Black can generate enough counterplay after Rxd5.\n\nOr after Rxd5 Rd8, I could try Rxe5 Bxe5 Bxd8 Kxd8, trading rook and bishop for pawn, knight, and rook — netting about one point for White, which seems acceptable, though I still need to check Black's other replies like Nd3+ or similar tricks.\n\nChecking back-rank safety: Rxd5 looks fine since Rd8 covers it. I'll go with it.",
+     "time_utc": "2026-10-18 21:46:04.336 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "2k3r1/1p5p/1B1b4/3Rnpp1/8/2P5/PP2BPPP/6K1 b - - 0 22",
+   "ms": 14000,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 43,
+   "san": "Rxd5",
+   "uci": "d1d5"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "6r1/1p1k3p/1B1b4/3Rnpp1/8/2P5/PP2BPPP/6K1 w - - 1 23",
+   "ms": 259858,
+   "ms_source": "server",
+   "n": 44,
+   "san": "Kd7",
+   "uci": "c8d7"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "MOVE: d5f5\nI'm taking the undefended f5 pawn with the rook, since nothing attacks f5 and Black's knight forks on d3, c4 and f3 can all be met by a bishop capture.",
+     "attempt": 1,
+     "message_sent_back": "The move d5f5 is not legal in this position.",
+     "move_read": "d5f5",
+     "outcome": "rejected",
+     "thinking_summary": "I'm setting up the board, noting White has king, rook on d5, two bishops, and six pawns, while Black has rook, king, bishop, knight, and four pawns. I'm checking whether the rook on d5 is actually defended, tracing the bishop on e2's diagonal to see if it covers that square.\n\nNow I'm checking tactical options for the rook: capturing on d6, e5, or f5. Taking the knight on e5 loses material to a recapture, and capturing f5 looks safer since nothing immediately threatens the rook there, though I need to watch for knight forks landing on d3 or c4 that could hit the bishop on b6. I'm also considering whether the rook on d5 is effectively pinned against the king on d7.\n\nRxf5 looks like a clean pawn win—it threatens Rxe5, and checking Black's tries like Nd3, Nc4, Nf3+, Ng4, or Ke6 all seem to fizzle out with simple responses like Bxd3, Bxc4, or Bxg4.",
+     "time_utc": "2026-10-18 21:50:37.050 UTC"
+    },
+    {
+     "answer_text": "MOVE: c5 is the square I want, so b6c5.\n\nI'm offering a bishop trade, because after Bxc5 Rxc5 my rook attacks the knight on e5 and the pawns on f5 and g5. My previous move was illegal because the knight on e5 blocks the rook's path to f5.\n\nMOVE: b6c5",
+     "attempt": 2,
+     "move_read": "b6c5",
+     "outcome": "accepted",
+     "thinking_summary": "I'm mapping out the board again: rook on d5, knight on e5 blocking its path toward f5, with pawns nearby on f5 and g5, trying to figure out the rook's possible routes.\n\nChecking captures carefully, Rxe5 just drops the exchange after Bxe5, so that's off. I consider Rxd6+ sacrificing for the bishop, and Bc5 trading off bishops to then attack the knight with the rook, since the black king isn't close enough to defend e5 directly.\n\nAfter Bxc5 Rxc5, Kd6 attacks the rook but it just slides away to grab another pawn or regroup, so that line is fine too. I'm satisfied Bc5 is sound and recapturing with the rook on c5 works safely.",
+     "time_utc": "2026-10-18 21:50:49.082 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "6r1/1p1k3p/3b4/2BRnpp1/8/2P5/PP2BPPP/6K1 b - - 2 23",
+   "ms": 23900,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 45,
+   "san": "Bc5",
+   "uci": "b6c5"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "6r1/1p5p/2kb4/2BRnpp1/8/2P5/PP2BPPP/6K1 w - - 3 24",
+   "ms": 46906,
+   "ms_source": "server",
+   "n": 46,
+   "san": "Kc6",
+   "uci": "d7c6"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "MOVE: d5d6\n\nI play Rxd6+, winning the bishop with check. Bc5 protects the rook on d6, so the king cannot recapture. Kb5 is not available because Be2 covers b5.",
+     "attempt": 1,
+     "move_read": "d5d6",
+     "outcome": "accepted",
+     "thinking_summary": "I'm setting up the board, noting White has king, rook, two bishops and six pawns against Black's king, rook, bishop, knight and four pawns, and I'm checking which pieces attack the kings and each other—like whether the rook on d5 or bishop on c5 are vulnerable or defended.\n\nThen I'm tracing a capturing sequence: bishop takes on d6, king recaptures the rook, bishop then grabs the knight on e5, and the king retakes—trying to tally whether White nets a favorable material trade of rook for bishop and knight.\n\nTracing this line further, I keep landing on bad trades for White—ending up a rook for a bishop down in most continuations. Trying to find a retreat square for the bishop that preserves the material gain isn't working either, since giving back the rook negates the point of the combination.\n\nLet me check Rxd6+ instead: Bc5 actually protects d6, so Kxd6 is illegal, meaning the king must move away—Kb5, with Kc7 ruled out since it walks into the rook's attack.\n\nChecking Black's replies to Rxd6+: Kb5 is actually illegal since the bishop on e2 covers that square, and Kc7 is fine since the bishop on c5 defends the rook. So Rxd6+ cleanly wins a piece.",
+     "time_utc": "2026-10-18 21:51:55.202 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "6r1/1p5p/2kR4/2B1npp1/8/2P5/PP2BPPP/6K1 b - - 0 24",
+   "ms": 18900,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 47,
+   "san": "Rxd6+",
+   "uci": "d5d6"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "6r1/1p5p/3R4/2k1npp1/8/2P5/PP2BPPP/6K1 w - - 0 25",
+   "ms": 31549,
+   "ms_source": "server",
+   "n": 48,
+   "san": "Kxc5",
+   "uci": "c6c5"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "MOVE: d6d4\n\nThe rook on d6 is attacked by the black king, so I move it to d4, where the c3 pawn protects it.",
+     "attempt": 1,
+     "move_read": "d6d4",
+     "outcome": "accepted",
+     "thinking_summary": "I'm setting up the position and noticing the black king on c5 directly attacks the undefended rook on d6, so the rook needs to move while possibly creating a check or threat.\n\nI'm checking rook moves: Rd5+ fails since nothing protects d5 from the king, Rc6+ loses to Nxc6 or Kxc6, and Rxd8 is met by Rxd8, but Rd4 is safe since c3 pawn covers it, keeping the rook active while I watch for black's Nf3+ idea.",
+     "time_utc": "2026-10-18 21:52:36.570 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "6r1/1p5p/8/2k1npp1/3R4/2P5/PP2BPPP/6K1 b - - 1 25",
+   "ms": 9500,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 49,
+   "san": "Rd4",
+   "uci": "d6d4"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "r7/1p5p/8/2k1npp1/3R4/2P5/PP2BPPP/6K1 w - - 2 26",
+   "ms": 149212,
+   "ms_source": "server",
+   "n": 50,
+   "san": "Ra8",
+   "uci": "g8a8"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "MOVE: a2a3\n\nThe a2 pawn is attacked by the black rook and has no defender, so a3 fixes that, since b2 protects it. White stays two pawns up.",
+     "attempt": 1,
+     "move_read": "a2a3",
+     "outcome": "accepted",
+     "thinking_summary": "I'm setting up the position: White has rook, bishop and six pawns against Black's rook, knight and four pawns, so white is two pawns up. I'm checking whether Black's rook can grab the a2 pawn and what recaptures or tactics follow.\n\nI'm working through candidate defenses: Rd5+ loses the rook to the king, Bc4 protects a2 but hangs a piece to Nxc4, and Bd1/Bf1/Bb5 all fail to actually guard a2. I'm also considering pushing a2-a3 to sidestep the threat, though that invites Rxa3 met by bxa3.\n\nAfter checking that a3 is simply protected by b2, I settle on this as the solution — verifying that tricks like Nc4 forking or Nd3 don't actually work out for black since Bxc4 or Bxd3 handles them cleanly. I'll play a3.",
+     "time_utc": "2026-10-18 21:55:17.462 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "r7/1p5p/8/2k1npp1/3R4/P1P5/1P2BPPP/6K1 b - - 0 26",
+   "ms": 10600,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 51,
+   "san": "a3",
+   "uci": "a2a3"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "r7/7p/8/1pk1npp1/3R4/P1P5/1P2BPPP/6K1 w - b6 0 27",
+   "ms": 30053,
+   "ms_source": "server",
+   "n": 52,
+   "san": "b5",
+   "uci": "b7b5"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "MOVE: f2f4\n\nThe pawn attacks the knight on e5 and opens lines for my rook and bishop, while my rook on d4 stays protected by the c3 pawn.",
+     "attempt": 1,
+     "move_read": "f2f4",
+     "outcome": "accepted",
+     "thinking_summary": "I'm setting up the position with White's king, rook, and bishop against Black's king, rook, and knight, checking the rook on d4 is defended by the c3 pawn against the king's attack, and considering Black's threat of Nc4.\n\nMaterial is equal with six pawns against four, favoring White. I'm checking candidate checks: b4+ seems met by king moves since d4 and c4 are covered, but Rd5+ looks stronger since it forks the king and hangs the knight, and I'm verifying whether the king can safely capture on d5.\n\nI'm checking if Bxb5 actually wins material - but the king recaptures since it's adjacent, so that loses the bishop for just a pawn. Let me look at b4+ instead, forcing the king back before deciding on a follow-up.\n\nActually I think f4 is cleanest - it attacks the knight, and all its retreats (Nd3, Nf3+, Nc4) seem to lead to lines where I keep the advantage without dropping material, so I'll go with f4.",
+     "time_utc": "2026-10-18 21:56:03.086 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "r7/7p/8/1pk1npp1/3R1P2/P1P5/1P2B1PP/6K1 b - f3 0 27",
+   "ms": 14800,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 53,
+   "san": "f4",
+   "uci": "f2f4"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "r7/7p/8/1pk1np2/3R1p2/P1P5/1P2B1PP/6K1 w - - 0 28",
+   "ms": 165314,
+   "ms_source": "server",
+   "n": 54,
+   "san": "gxf4",
+   "uci": "g5f4"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "MOVE: d4f4\nRxf4 wins the f4 pawn, and the rook is not attacked there. Any knight fork on d3 can be met by Bxd3.",
+     "attempt": 1,
+     "move_read": "d4f4",
+     "outcome": "accepted",
+     "thinking_summary": "I'm setting up the position: White king g1, rook d4, bishop e2, pawns on a3/b2/c3/g2/h2; Black rook a8, king c5, knight e5, pawns b5/f5/f4/h7. The king on c5 attacks the rook on d4, but the rook is defended by the c3 pawn, and I'm checking whether Black's rook can grab a3, which is itself guarded by b2.\n\nRxf4 looks like the move -- grabbing a pawn with the rook while staying safe, since the knight on e5 doesn't actually cover f4. I'm checking follow-up tactics like Nd3 forking, Nf3+, or Ng4, but each seems to fizzle out with Bxd3 or gxf3, and ...Rxa3 simply loses to bxa3, so Rxf4 wins material cleanly.",
+     "time_utc": "2026-10-18 21:58:56.200 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "r7/7p/8/1pk1np2/5R2/P1P5/1P2B1PP/6K1 b - - 0 28",
+   "ms": 7100,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 55,
+   "san": "Rxf4",
+   "uci": "d4f4"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "5r2/7p/8/1pk1np2/5R2/P1P5/1P2B1PP/6K1 w - - 1 29",
+   "ms": 117605,
+   "ms_source": "server",
+   "n": 56,
+   "san": "Rf8",
+   "uci": "a8f8"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "MOVE: f4h4\n\nIdea: the rook goes to h4 to attack the h7 pawn, and it stays safe there.",
+     "attempt": 1,
+     "move_read": "f4h4",
+     "outcome": "accepted",
+     "thinking_summary": "I'm setting up the position with White's king, rook, bishop and pawns against Black's king, rook, knight and pawns, checking whether Black's knight can fork the rook on f4 with a jump to d3, and noting the rook already eyes the f5 pawn which is defended by Black's rook.\n\nTrying out candidate moves: sacrificing the bishop on b5 just loses material since the king recaptures freely, and pushing the rook to c4 or d4 runs into similar problems since the squares are defended by Black's king or c3 pawn. The safest idea seems to be swinging the rook to h4 to grab the h7 pawn, though I need to check whether Black's knight jumping to d3 afterward creates real counterplay despite the bishop guarding that square.",
+     "time_utc": "2026-10-18 22:01:03.764 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "5r2/7p/8/1pk1np2/7R/P1P5/1P2B1PP/6K1 b - - 2 29",
+   "ms": 9000,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 57,
+   "san": "Rh4",
+   "uci": "f4h4"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "8/5r1p/8/1pk1np2/7R/P1P5/1P2B1PP/6K1 w - - 3 30",
+   "ms": 146965,
+   "ms_source": "server",
+   "n": 58,
+   "san": "Rf7",
+   "uci": "f8f7"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "MOVE: b2b4\n\nI'm two pawns up, and this check drives the king back. The b4 pawn is protected by both a3 and c3, and the king cannot go to c4 because my bishop on e2 covers that square.",
+     "attempt": 1,
+     "move_read": "b2b4",
+     "outcome": "accepted",
+     "thinking_summary": "I'm setting up the position with White having rook, bishop, and five pawns against Black's rook, knight, and three pawns, so White appears to be up material.\n\nI'm checking Black's threats like Nd3 and Ng4, and testing White ideas like Rh5, Bxb5, and Rc4+ for safety, but each runs into tactical problems — the bishop grab on b5 hangs to the king, and the rook moves don't quite land cleanly due to pins or defended pawns.\n\nTrying b4+ instead, I work through the king's escape squares, checking whether Kc4 is viable given White's bishop on e2 potentially covering it, and whether the pawn structure on a3/c3 holds up the advance.\n\nWeighing alternatives again, I consider Nd3 jumping into the center, but it just gets traded off. I also reconsider Rh5 but it doesn't pin anything useful. Settling on Bf3 as a safe developing move, though I note it doesn't really stop Nd3 and allows Nxf3+ breaking my kingside pawns.",
+     "time_utc": "2026-10-18 22:03:45.373 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "8/5r1p/8/1pk1np2/1P5R/P1P5/4B1PP/6K1 b - b3 0 30",
+   "ms": 13700,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 59,
+   "san": "b4+",
+   "uci": "b2b4"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "8/5r1p/1k6/1p2np2/1P5R/P1P5/4B1PP/6K1 w - - 1 31",
+   "ms": 67675,
+   "ms_source": "server",
+   "n": 60,
+   "san": "Kb6",
+   "uci": "c5b6"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "MOVE: e2h5\n\nThe bishop attacks the rook on f7 and also eyes the h7 pawn. I'm two pawns up, so I want to trade pieces and keep making threats.",
+     "attempt": 1,
+     "move_read": "e2h5",
+     "outcome": "accepted",
+     "thinking_summary": "I'm setting up the position with White having rook and bishop plus five pawns against Black's rook and knight with three pawns, giving White a two-pawn material edge, and now I'm checking what threats Black's knight poses.\n\nI'm trying out various attacking ideas: knight forks like Nd3 or Nf3+ that could trade into favorable rook endgames, and bishop moves like Bd4+ or Bh5 that create checks or attack the f7 rook, weighing whether Black has adequate defenses like blocking with Nc4 or shifting the king.\n\nI'm checking Bh5 lines too, trying Rg7 responses and seeing if Kf2 or Bf3 holds things together, but nothing looks clearly better than just keeping the knight safe with a quiet move like Nd7.",
+     "time_utc": "2026-10-18 22:05:06.238 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "8/5r1p/1k6/1p2np1B/1P5R/P1P5/6PP/6K1 b - - 2 31",
+   "ms": 12700,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 61,
+   "san": "Bh5",
+   "uci": "e2h5"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "8/r6p/1k6/1p2np1B/1P5R/P1P5/6PP/6K1 w - - 3 32",
+   "ms": 80653,
+   "ms_source": "server",
+   "n": 62,
+   "san": "Ra7",
+   "uci": "f7a7"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "MOVE: h4f4\n\nI plan to attack the f5 pawn with the rook. If Black plays ...Nd3 to hit the rook, I can take on f5 and still answer ...Nxb4 by recapturing.",
+     "attempt": 1,
+     "move_read": "h4f4",
+     "outcome": "accepted",
+     "thinking_summary": "I'm setting up the position with White's king, rook, and bishop against Black's king, rook, and knight with pawns, then checking Black's tactical threats like Nf3+ forking the king and rook, which White can simply meet with gxf3.\n\nI'm trying to find a way to win material for White—checking if Rxh7 works but seeing it's defended by the rook on a7, testing bishop moves to g6 but finding h7 just recaptures, and now exploring Rf4 to see if it holds up against Black's knight jumping to d3.\n\nEven after cxb4 Rxa3, Rf6+ picks up material with check, so Rf4 looks like the move to play.",
+     "time_utc": "2026-10-18 22:06:38.916 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "8/r6p/1k6/1p2np1B/1P3R2/P1P5/6PP/6K1 b - - 4 32",
+   "ms": 11000,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 63,
+   "san": "Rf4",
+   "uci": "h4f4"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "8/7p/1k6/1p2np1B/1P3R2/r1P5/6PP/6K1 w - - 0 33",
+   "ms": 81378,
+   "ms_source": "server",
+   "n": 64,
+   "san": "Rxa3",
+   "uci": "a7a3"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "MOVE: f4f5\n\nI take the f5 pawn, which also attacks the undefended knight on e5, so Black can't afford to grab c3 with the rook.",
+     "attempt": 1,
+     "move_read": "f4f5",
+     "outcome": "accepted",
+     "thinking_summary": "I'm checking this endgame position, noting Black's threat of Rxc3 and examining what the knight on e5 actually attacks to see if anything more dangerous is brewing against White's rook or king.\n\nRxf5 looks strong since it grabs a pawn while simultaneously attacking the undefended knight on e5—Black can't save both the knight and recapture material, so Rxf5 seems like the clear move.",
+     "time_utc": "2026-10-18 22:08:07.896 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "8/7p/1k6/1p2nR1B/1P6/r1P5/6PP/6K1 b - - 0 33",
+   "ms": 7400,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 65,
+   "san": "Rxf5",
+   "uci": "f4f5"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "8/7p/1k6/1p2nR1B/1P6/2P5/6PP/r5K1 w - - 1 34",
+   "ms": 103315,
+   "ms_source": "server",
+   "n": 66,
+   "san": "Ra1+",
+   "uci": "a3a1"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "MOVE: f5f1\nI block the check with the rook. If Black trades rooks, White has a bishop and four pawns against a knight and two pawns, which should be winning.",
+     "attempt": 1,
+     "move_read": "f5f1",
+     "outcome": "accepted",
+     "thinking_summary": "I'm facing a check from the rook on a1 and weighing whether to move the king to f2 or block with the rook on f1, trying to work out whether trading rooks leaves White in a reasonable material position afterward.\n\nAfter Rf1 Rxf1+ Kxf1, White ends up with bishop and four pawns against knight and two pawns, which looks clearly winning, and even a tactical attempt like Nd3 hitting b4 doesn't save Black since the knight just gets picked off.",
+     "time_utc": "2026-10-18 22:09:59.401 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "8/7p/1k6/1p2n2B/1P6/2P5/6PP/r4RK1 b - - 2 34",
+   "ms": 7000,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 67,
+   "san": "Rf1",
+   "uci": "f5f1"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "8/7p/1k6/1p2n2B/1P6/2P5/6PP/5rK1 w - - 0 35",
+   "ms": 43695,
+   "ms_source": "server",
+   "n": 68,
+   "san": "Rxf1+",
+   "uci": "a1f1"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "MOVE: g1f1\n\nThe black rook on f1 is giving check, and the king can capture it safely because nothing protects it.",
+     "attempt": 1,
+     "move_read": "g1f1",
+     "outcome": "accepted",
+     "thinking_summary": "The rook on f1 is checking the king on g1, and nothing else can block or capture it, so the king just takes: Kxf1, since the rook isn't defended by the knight on e5 or the bishop on h5.",
+     "time_utc": "2026-10-18 22:10:47.540 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "8/7p/1k6/1p2n2B/1P6/2P5/6PP/5K2 b - - 0 35",
+   "ms": 3600,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 69,
+   "san": "Kxf1",
+   "uci": "g1f1"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "8/8/1k5p/1p2n2B/1P6/2P5/6PP/5K2 w - - 0 36",
+   "ms": 29458,
+   "ms_source": "server",
+   "n": 70,
+   "san": "h6",
+   "uci": "h7h6"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "MOVE: f1e2\n\nI'm centralizing the king and covering d3 and f3 against knight forks, while keeping the extra bishop and pawns.",
+     "attempt": 1,
+     "move_read": "f1e2",
+     "outcome": "accepted",
+     "thinking_summary": "Looking at the position, White has bishop plus two extra pawns versus Black's knight, a clearly winning material edge. I'm checking safe moves like Be2, Ke2, or g3, while watching for Black's knight hopping to d3, c4, g4, or f3 to cause trouble.",
+     "time_utc": "2026-10-18 22:11:22.879 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "8/8/1k5p/1p2n2B/1P6/2P5/4K1PP/8 b - - 1 36",
+   "ms": 5300,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 71,
+   "san": "Ke2",
+   "uci": "f1e2"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "8/1k6/7p/1p2n2B/1P6/2P5/4K1PP/8 w - - 2 37",
+   "ms": 32680,
+   "ms_source": "server",
+   "n": 72,
+   "san": "Kb7",
+   "uci": "b6b7"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "MOVE: e2e3\n\nI'm centralising the king. I'm up a bishop-for-knight with two extra pawns, so I want the king active and ready to answer ...Nc4+ with Kd4.",
+     "attempt": 1,
+     "move_read": "e2e3",
+     "outcome": "accepted",
+     "thinking_summary": "I'm evaluating this endgame where White has bishop plus four pawns against Black's knight plus two pawns, giving White a two-pawn material edge. I'm checking whether the bishop on h5 is safe from the knight on e5 and thinking about advancing the king toward the center to support the extra pawns.",
+     "time_utc": "2026-10-18 22:12:04.334 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "8/1k6/7p/1p2n2B/1P6/2P1K3/6PP/8 b - - 3 37",
+   "ms": 8300,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 73,
+   "san": "Ke3",
+   "uci": "e2e3"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "8/1k6/7p/1p5B/1Pn5/2P1K3/6PP/8 w - - 4 38",
+   "ms": 38776,
+   "ms_source": "server",
+   "n": 74,
+   "san": "Nc4+",
+   "uci": "e5c4"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "MOVE: e3d4\n\nI'm centralizing the king out of the knight's check, and it also attacks the knight, which is defended only by the b5 pawn.",
+     "attempt": 1,
+     "move_read": "e3d4",
+     "outcome": "accepted",
+     "thinking_summary": "With the king on e3 in check from the knight on c4, I'm checking my options - Kd3 seems safe since although it attacks the knight, that knight is protected by the b5 pawn, so I'd just be moving into its defended square without real threat. Other king moves like Ke4, Kf3, Ke2, or Kd4 are also possibilities to consider.\n\nKd4 looks good - the knight's attack squares from c4 don't include d4, so my king would be safe there while still pressuring the knight, which remains protected by b5. With bishop plus four pawns against knight plus two pawns, I'm clearly winning, so centralizing with Kd4 makes sense to keep tying down black's pieces.",
+     "time_utc": "2026-10-18 22:12:49.887 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "8/1k6/7p/1p5B/1PnK4/2P5/6PP/8 b - - 5 38",
+   "ms": 6100,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 75,
+   "san": "Kd4",
+   "uci": "e3d4"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "1k6/8/7p/1p5B/1PnK4/2P5/6PP/8 w - - 6 39",
+   "ms": 28284,
+   "ms_source": "server",
+   "n": 76,
+   "san": "Kb8",
+   "uci": "b7b8"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "MOVE: g2g4\n\nIdea: advance the kingside pawns while the king stays next to the c4 knight, so Ne3 can be met by Kxe3.",
+     "attempt": 1,
+     "move_read": "g2g4",
+     "outcome": "accepted",
+     "thinking_summary": "Looking at this position, White has a bishop and pawn edge with king d4, bishop h5, pawns on b4/c3/g2/h2 against Black's king b8, knight c4, pawns b5/h6. I'm noting the knight on c4 is defended by the b5 pawn, so simply attacking it with the king won't win it outright—I need a plan to undermine that protection.\n\nI'm checking whether the knight can jump to f3+ to fork anything, but the bishop on h5 covers f3, so that's not a real threat. With no immediate tactics, pushing g4 looks like a safe, simple way to continue making progress.",
+     "time_utc": "2026-10-18 22:13:27.222 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "1k6/8/7p/1p5B/1PnK2P1/2P5/7P/8 b - g3 0 39",
+   "ms": 8200,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 77,
+   "san": "g4",
+   "uci": "g2g4"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "1k6/8/3n3p/1p5B/1P1K2P1/2P5/7P/8 w - - 1 40",
+   "ms": 17012,
+   "ms_source": "server",
+   "n": 78,
+   "san": "Nd6",
+   "uci": "c4d6"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "MOVE: h2h4\n\nI'm a bishop up and have two connected kingside pawns, so I'll advance the h-pawn to support g5. The bishop on h5 and the g4 pawn protect each other, so nothing is hanging.",
+     "attempt": 1,
+     "move_read": "h2h4",
+     "outcome": "accepted",
+     "thinking_summary": "Looking at this position, White has a clear material edge with bishop and four pawns against knight and two pawns, so this should be winning. I'm checking knight moves from d6 and whether the bishop on h5 can create threats against it.\n\nSince Nf6 would hit both g4 and h5 but those squares defend each other, the bishop stays safe. Playing h4 solidifies the kingside pawns while keeping the position simple and advantageous.",
+     "time_utc": "2026-10-18 22:13:52.320 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "1k6/8/3n3p/1p5B/1P1K2PP/2P5/8/8 b - h3 0 40",
+   "ms": 7400,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 79,
+   "san": "h4",
+   "uci": "h2h4"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "2k5/8/3n3p/1p5B/1P1K2PP/2P5/8/8 w - - 1 41",
+   "ms": 33979,
+   "ms_source": "server",
+   "n": 80,
+   "san": "Kc8",
+   "uci": "b8c8"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "MOVE: g4g5\n\nI'm pushing the g-pawn to trade off Black's h-pawn and create a dangerous passed pawn, with the bishop on h5 covering the knight's useful squares.",
+     "attempt": 1,
+     "move_read": "g4g5",
+     "outcome": "accepted",
+     "thinking_summary": "Looking at this position, I'm checking whether the knight on d6 can interfere with White's kingside pawns—it doesn't reach h5. So the plan is to push g5, trading off to create a passed pawn on the h-file.",
+     "time_utc": "2026-10-18 22:14:34.344 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "2k5/8/3n3p/1p4PB/1P1K3P/2P5/8/8 b - - 0 41",
+   "ms": 7700,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 81,
+   "san": "g5",
+   "uci": "g4g5"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "2k5/8/3n4/1p4pB/1P1K3P/2P5/8/8 w - - 0 42",
+   "ms": 43014,
+   "ms_source": "server",
+   "n": 82,
+   "san": "hxg5",
+   "uci": "h6g5"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "MOVE: h4g5\n\nI capture the g5 pawn with my h-pawn, which also leaves me with a passed pawn on g5.",
+     "attempt": 1,
+     "move_read": "h4g5",
+     "outcome": "accepted",
+     "thinking_summary": "Looking at this endgame position, I notice Black's g5 pawn attacks my h4 pawn, so capturing with hxg5 looks natural, leaving me a passed pawn. I'm checking whether Black's knight can then jump to f5 with a fork after the exchange.",
+     "time_utc": "2026-10-18 22:15:22.537 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "2k5/8/3n4/1p4PB/1P1K4/2P5/8/8 b - - 0 42",
+   "ms": 4500,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 83,
+   "san": "hxg5",
+   "uci": "h4g5"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "1k6/8/3n4/1p4PB/1P1K4/2P5/8/8 w - - 1 43",
+   "ms": 45526,
+   "ms_source": "server",
+   "n": 84,
+   "san": "Kb8",
+   "uci": "c8b8"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "MOVE: g5g6\n\nThe idea is to push the passed pawn toward promotion, with the bishop on h5 guarding f7.",
+     "attempt": 1,
+     "move_read": "g5g6",
+     "outcome": "accepted",
+     "thinking_summary": "I'm analyzing the position with White's king, bishop and pawns against Black's king, knight and pawn. The pawn on g5 can push forward, but if the knight jumps to f7 to attack the bishop, the bishop can simply capture it since h5 covers f7.\n\nI'm checking g6 as the push now, considering lines where the knight tries to fork with Nf5+ or blockades the pawn with Ne8/Nh6/Ng8. In each case, the bishop's coverage of f7 or the king's proximity seems to let White either capture the knight or push the pawn through to promote.",
+     "time_utc": "2026-10-18 22:16:17.338 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "1k6/8/3n2P1/1p5B/1P1K4/2P5/8/8 b - - 0 43",
+   "ms": 9000,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 85,
+   "san": "g6",
+   "uci": "g5g6"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "1k2n3/8/6P1/1p5B/1P1K4/2P5/8/8 w - - 1 44",
+   "ms": 40572,
+   "ms_source": "server",
+   "n": 86,
+   "san": "Ne8",
+   "uci": "d6e8"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "MOVE: h5f7\n\nThe bishop attacks the knight on e8 and covers g8, so the g6 pawn can advance.",
+     "attempt": 1,
+     "message_sent_back": "The move h5f7 is not legal in this position.",
+     "move_read": "h5f7",
+     "outcome": "rejected",
+     "thinking_summary": "I'm mapping out the position with White's king, bishop, and pawns versus Black's king, knight, and pawn, checking how the knight on e8 and bishop on h5 interact given the g6 pawn blocking the diagonal.\n\nI'm trying Bf7 to hit the knight while covering g8, then working through replies like Nd6 or Nf6, since after a knight trade the g-pawn can run to promotion with the black king too far away to stop it.",
+     "time_utc": "2026-10-18 22:17:08.276 UTC"
+    },
+    {
+     "answer_text": "MOVE: h5g4\n\nMy last move was illegal because the pawn on g6 blocks the bishop's diagonal to f7. The bishop on g4 heads for d7 to hit the knight on e8.",
+     "attempt": 2,
+     "move_read": "h5g4",
+     "outcome": "accepted",
+     "thinking_summary": "I'm checking the bishop's mobility on h5 - it's blocked from reaching g6 by my own pawn, so I'm looking at alternate diagonals like g4, f3, e2, d1, and also considering whether pushing g6-g7 lets the knight on e8 contest that square.\n\nSince the g7 square is dark and my bishop runs on light squares, I can't support that pawn push directly. Instead I'm exploring routes to attack the knight itself, like Bd7, forcing it to move away from guarding e8.\n\nSince the knight still can't be dislodged cleanly even with Bd5, I'll just settle on playing Bg4.",
+     "time_utc": "2026-10-18 22:17:18.973 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "1k2n3/8/6P1/1p6/1P1K2B1/2P5/8/8 b - - 2 44",
+   "ms": 20000,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 87,
+   "san": "Bg4",
+   "uci": "h5g4"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "1k6/8/3n2P1/1p6/1P1K2B1/2P5/8/8 w - - 3 45",
+   "ms": 23448,
+   "ms_source": "server",
+   "n": 88,
+   "san": "Nd6",
+   "uci": "e8d6"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "MOVE: d4e5\n\nThe king attacks the unprotected knight on d6 and heads for f6 to support the g-pawn's promotion.",
+     "attempt": 1,
+     "move_read": "d4e5",
+     "outcome": "accepted",
+     "thinking_summary": "I'm looking at this endgame with White's king on d4, bishop on g4, pawns on g6, b4, c3 against Black's king on b8, knight on d6, pawn on b5. The g-pawn wants to race to promotion, but I need to check whether Black's knight can reach e8 or f7 in time to blockade it.\n\nPushing g7 lets Ne8 cover that square, so I'm examining whether Bf5 first, forking the knight's defense, changes the outcome — if Black captures with Nxf5+, Kxf5 then g7 should queen unopposed since the king is too far.\n\nLet me try Ke5 to approach, since Nd6 is unprotected and the king threatens it. After Ne8, I can continue Kf5-f6, and once g7 pushes, Nxg7 followed by Kxg7 picks off the knight cleanly.",
+     "time_utc": "2026-10-18 22:17:57.712 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "1k6/8/3n2P1/1p2K3/1P4B1/2P5/8/8 b - - 4 45",
+   "ms": 14700,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 89,
+   "san": "Ke5",
+   "uci": "d4e5"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "1k6/8/6P1/1p2K3/1Pn3B1/2P5/8/8 w - - 5 46",
+   "ms": 17246,
+   "ms_source": "server",
+   "n": 90,
+   "san": "Nc4+",
+   "uci": "d6c4"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "MOVE: e5f6\n\nI'm stepping out of the knight's check with the king toward the g-pawn, since Kf6 supports g6 and g7 and keeps the pawn's route to g8 open.",
+     "attempt": 1,
+     "move_read": "e5f6",
+     "outcome": "accepted",
+     "thinking_summary": "I'm checking this knight check on e5 from c4 - the bishop on g4 can't block or capture since its diagonals don't reach c4, so the king has to move out of check.\n\nMy plan is to push the g-pawn toward promotion, but I need to pick a king square that shields it from the knight's forking checks. Kf6 covers g6 and g7 but lets the knight land on d6 or e8 to harass, while Kf7 guards g7 and g8 more directly, so I'm weighing whether Nd6+ there still causes trouble before the pawn queens.\n\nConfirmed, the bishop on that diagonal controls g8. So I'm thinking the plan is Kf6, and if Nd6 threatens Ne8+, I counter with Bd7 blocking e8/c8, so the knight can't safely invade; then push g7 toward promotion while handling Nf5 tries with Kxf5.",
+     "time_utc": "2026-10-18 22:18:30.023 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "1k6/8/5KP1/1p6/1Pn3B1/2P5/8/8 b - - 6 46",
+   "ms": 13600,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 91,
+   "san": "Kf6",
+   "uci": "e5f6"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "1k6/8/3n1KP1/1p6/1P4B1/2P5/8/8 w - - 7 47",
+   "ms": 45373,
+   "ms_source": "server",
+   "n": 92,
+   "san": "Nd6",
+   "uci": "c4d6"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "MOVE: g6g7\n\nThe pawn is one step from promotion. If Black answers Ne8+, Kf7 attacks the knight, and if the knight takes g7 I recapture with the king.",
+     "attempt": 1,
+     "move_read": "g6g7",
+     "outcome": "accepted",
+     "thinking_summary": "I'm checking whether pushing the pawn to g7 works here—looking at whether Black's knight can jump to e8 with check to disrupt the promotion, since the knight currently covers several key squares including f7 and e8.\n\nAfter working through Ne8+ Kf7 Nxg7 Kxg7, I confirm White ends up with bishop and extra pawns against a lone pawn, which should be a straightforward win. I'm also checking alternatives like Kf7 or Be6 to see if there's a cleaner path, but it seems g7 followed by careful king/knight play still gets there since nothing Black has actually guards the g8 promotion square.",
+     "time_utc": "2026-10-18 22:19:25.731 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "1k6/6P1/3n1K2/1p6/1P4B1/2P5/8/8 b - - 0 47",
+   "ms": 9800,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 93,
+   "san": "g7",
+   "uci": "g6g7"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "1k6/6P1/5K2/1p6/1P2n1B1/2P5/8/8 w - - 1 48",
+   "ms": 16740,
+   "ms_source": "server",
+   "n": 94,
+   "san": "Ne4+",
+   "uci": "d6e4"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "MOVE: f6g6\n\nMy king is in check from the knight on e4, so I step out of check to g6. From there it attacks f6 and g5, so the knight can't stop g7-g8=Q: if it goes to f6 to cover g8, the king captures it.",
+     "attempt": 1,
+     "move_read": "f6g6",
+     "outcome": "accepted",
+     "thinking_summary": "I'm checking this king and knight position - the knight on e4 is giving check to the king on f6, and I'm verifying the bishop on g4 doesn't cover e4, so the king needs to move out of check.\n\nKf7 looks promising since it protects the g8 promotion square. I'm checking follow-up lines like Nd6+ or Ng5+ to see if Black's knight can keep harassing the king and stop the pawn from queening, testing whether the bishop can swoop in to capture an exposed knight along the way.\n\nThe only real defense is Nf6, and Kxf6 just takes it since nothing else covers g8. So Kg6 looks safe and clean.",
+     "time_utc": "2026-10-18 22:19:54.444 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "1k6/6P1/6K1/1p6/1P2n1B1/2P5/8/8 b - - 2 48",
+   "ms": 11000,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 95,
+   "san": "Kg6",
+   "uci": "f6g6"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "8/2k3P1/6K1/1p6/1P2n1B1/2P5/8/8 w - - 3 49",
+   "ms": 34425,
+   "ms_source": "server",
+   "n": 96,
+   "san": "Kc7",
+   "uci": "b8c7"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "MOVE: g7g8q\n\nI promote the pawn to a queen on g8; neither the black knight on e4 nor the king on c7 attacks that square.",
+     "attempt": 1,
+     "move_read": "g7g8q",
+     "outcome": "accepted",
+     "thinking_summary": "Checking if g8 is safe for promotion—the knight on e4 can't reach g8 and the black king is too far, so g8=Q looks completely safe, giving White a winning queen.",
+     "time_utc": "2026-10-18 22:20:34.360 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "6Q1/2k5/6K1/1p6/1P2n1B1/2P5/8/8 b - - 0 49",
+   "ms": 4500,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 97,
+   "san": "g8=Q",
+   "uci": "g7g8q"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "6Q1/2k5/6K1/1p6/1P4B1/2P3n1/8/8 w - - 1 50",
+   "ms": 88683,
+   "ms_source": "server",
+   "n": 98,
+   "san": "Ng3",
+   "uci": "e4g3"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "Qe7+ gives check and keeps the bishop covering c8 and d7, so the black king is driven away from the centre while White presses the queen advantage.\n\nMOVE: g8e7",
+     "attempt": 1,
+     "message_sent_back": "The move g8e7 is not legal in this position.",
+     "move_read": "g8e7",
+     "outcome": "rejected",
+     "thinking_summary": "I'm setting up the position with White's king, queen, and bishop against Black's king and knight, trying to find a forcing checkmate sequence by testing queen checks like Qf7+ and seeing how the black king can escape.\n\nI'm checking whether Qc8+ works, but realize it's protected by the bishop so the king can't capture, yet I still need to verify all the king's flight squares are covered before calling it mate.\n\nTrying Qf7+ lines instead, but keep circling back to just confirming Qe7+ keeps things safe while also looking for a tactic that wins the knight on the kingside.\n\nKing moves don't quite work for an immediate attack on the knight either, so I'll just go with Qe7+ and keep chasing the king with checks afterward, not worrying about stalemate since the knight can't really interpose usefully.",
+     "time_utc": "2026-10-18 22:22:18.219 UTC"
+    },
+    {
+     "answer_text": "MOVE: g8f7\n\nI'm giving check along the 7th rank with Qf7+; the knight on g3 can't attack f7, so the queen is safe there.",
+     "attempt": 2,
+     "move_read": "g8f7",
+     "outcome": "accepted",
+     "thinking_summary": "I'm mapping out the board: White queen, king, bishop against black king and knight with pawns on both sides. My own king on g6 blocks the queen's direct line to the knight on g3, so I'm looking for another square or threat, like pushing the queen to e8 to create pressure.\n\nChecking Qf7+, it hits the king along the seventh rank while staying safe from the knight's coverage, forcing the king to b6, b8, c8, or possibly d6 since nothing currently guards that square. That looks like the cleanest forcing move, so I'll go with Qf7+.",
+     "time_utc": "2026-10-18 22:22:25.990 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "8/2k2Q2/6K1/1p6/1P4B1/2P3n1/8/8 b - - 2 50",
+   "ms": 22800,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 99,
+   "san": "Qf7+",
+   "uci": "g8f7"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "1k6/5Q2/6K1/1p6/1P4B1/2P3n1/8/8 w - - 3 51",
+   "ms": 60314,
+   "ms_source": "server",
+   "n": 100,
+   "san": "Kb8",
+   "uci": "c7b8"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "MOVE: f7e7\n\nI'm keeping the bishop on g4 to cover c8, and the queen on e7 covers a7, b7 and c7. The follow-up is Bf3+ and then Qb7#.",
+     "attempt": 1,
+     "move_read": "f7e7",
+     "outcome": "accepted",
+     "thinking_summary": "I'm setting up the position with White king g6, queen f7, bishop g4, pawns b4/c3 against Black king b8, knight g3, pawn b5, then checking which squares the queen on f7 already restricts the black king to.\n\nWith c8 covered by the bishop's diagonal and b7/a7/c7 pinned down by the queen, a8 is the only escape square left, so I'm testing checks like Qe8+, Qc7+, and Qd7 to see which forces mate without allowing the king to slip to b7 or c7, while also considering a bishop check to d7 as another mating try.\n\nThat doesn't work either since Qc6+ lacks support. Let me try Qe7, which covers c7 and b7 but leaves a8 open, forcing the king there without delivering mate; Qf4+ and Qd5 both still let the king slip to a8 or b7.\n\nActually Bf3+ works along the long diagonal since it's clear to a8 - that's check. Then Kb8 is forced since a7 is covered by the queen, and Qb7# follows since the bishop supports it and all king flights are covered. But I need to check if black can block with the knight on g3, which could interpose on e4.",
+     "time_utc": "2026-10-18 22:23:47.045 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "1k6/4Q3/6K1/1p6/1P4B1/2P3n1/8/8 b - - 4 51",
+   "ms": 20200,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 101,
+   "san": "Qe7",
+   "uci": "f7e7"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "k7/4Q3/6K1/1p6/1P4B1/2P3n1/8/8 w - - 5 52",
+   "ms": 33206,
+   "ms_source": "server",
+   "n": 102,
+   "san": "Ka8",
+   "uci": "b8a8"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "MOVE: e7c7\n\nThe queen on c7 covers a7, b7 and b8, so the black king has no moves, and it threatens Bf3+ with mate.",
+     "attempt": 1,
+     "move_read": "e7c7",
+     "outcome": "accepted",
+     "thinking_summary": "I'm checking this mating pattern with the white king on g6, queen on e7, and bishop on g4 against the black king on a8. I'm testing whether Qa7+ works, checking if anything defends that square since the bishop's diagonal only covers d7 and c8.\n\nChecking Qe8+ gives the king escape squares on a7 or b7, so that's not mate. I'm trying Qc7 instead, which covers a7 and b7 along the seventh rank, leaving only b8 covered too—but the knight on g3 still has legal moves, so it's not stalemate, just a strong threat of Qb7#. I'm now looking at bishop moves along the a8-h1 diagonal to see if Bd5+ or similar is reachable from g4, since that could support the mating idea.\n\nI'm checking Qc7's follow-up threats like Bf3+ combinations and Ne4 defenses, trying to see if Qb7# or Qc6+ ideas work against the knight blocks. Still working through whether black has any safe defense after Qc7.",
+     "time_utc": "2026-10-18 22:24:34.468 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "k7/2Q5/6K1/1p6/1P4B1/2P3n1/8/8 b - - 6 52",
+   "ms": 14000,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 103,
+   "san": "Qc7",
+   "uci": "e7c7"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "k7/2Q5/6K1/1p6/1P2n1B1/2P5/8/8 w - - 7 53",
+   "ms": 28531,
+   "ms_source": "server",
+   "n": 104,
+   "san": "Ne4",
+   "uci": "g3e4"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "MOVE: g4d7\n\nThe idea is Bc6#, since the queen on c7 already takes away a7, b7 and b8 from the black king.",
+     "attempt": 1,
+     "move_read": "g4d7",
+     "outcome": "accepted",
+     "thinking_summary": "With the black king boxed into a8 with a7 and b8 covered by the queen, I'm checking whether b7 is also controlled and whether Qb7 would be defended, since that looks like the mating square.\n\nI'm trying to find a way to get the bishop to defend b7 or c6-a8 diagonal, considering moves like Bd7 or Bc6+ to set up Qb7#, testing whether Black has escape squares or knight interpositions after each try.\n\nI check that Nc5 wouldn't save Black since Bc6 still mates there, though it does hit the d7 bishop and b7. I consider other tries like Qb7 or Qa7+ but those just get captured, so there's no quicker mate in one. Playing Bd7 looks like the right route toward Bc6#, and I verify it doesn't accidentally stalemate Black's knight.",
+     "time_utc": "2026-10-18 22:25:18.015 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "k7/2QB4/6K1/1p6/1P2n3/2P5/8/8 b - - 8 53",
+   "ms": 14200,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 105,
+   "san": "Bd7",
+   "uci": "g4d7"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "k7/2QB4/6K1/1pn5/1P6/2P5/8/8 w - - 9 54",
+   "ms": 30651,
+   "ms_source": "server",
+   "n": 106,
+   "san": "Nc5",
+   "uci": "e4c5"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "Bc6 gives check, and the only legal reply is Nb7, which blocks the diagonal. Then Qxb7 is mate, because the bishop protects the queen.\n\nMOVE: d7c6",
+     "attempt": 1,
+     "move_read": "d7c6",
+     "outcome": "accepted",
+     "thinking_summary": "I'm setting up the position with White's king, queen, and bishop against Black's king, knight, and pawn, checking whether the black king is boxed in and testing queen moves like Qb7 for a checkmate.\n\nInstead I find Bc6+ works: the bishop checks along the c6-a8 diagonal, and since the only legal response is Nb7 to block, I can follow with Qxb7#, since the bishop guards b7 and the black king has no escape squares.",
+     "time_utc": "2026-10-18 22:25:56.530 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "k7/2Q5/2B3K1/1pn5/1P6/2P5/8/8 b - - 10 54",
+   "ms": 7100,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 107,
+   "san": "Bc6+",
+   "uci": "d7c6"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "k7/1nQ5/2B3K1/1p6/1P6/2P5/8/8 w - - 11 55",
+   "ms": 10907,
+   "ms_source": "server",
+   "n": 108,
+   "san": "Nb7",
+   "uci": "c5b7"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "Qxb7 is checkmate: the bishop on c6 protects the queen, and the queen covers a7 and b8, so the king has no escape.\n\nMOVE: c7b7",
+     "attempt": 1,
+     "move_read": "c7b7",
+     "outcome": "accepted",
+     "thinking_summary": "Checking Qxb7#: the bishop on c6 guards b7, so the king can't recapture, and both a7 and b8 are covered by the queen too — that's mate.",
+     "time_utc": "2026-10-18 22:26:12.023 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "k7/1Q6/2B3K1/1p6/1P6/2P5/8/8 b - - 0 55",
+   "ms": 4000,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 109,
+   "san": "Qxb7#",
+   "uci": "c7b7"
+  }
+ ],
+ "notes": [],
+ "reason": "checkmate",
+ "rejected_answers": 5,
+ "result": "1-0",
+ "series": "sonnet-2026-10-18",
+ "start_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+ "start_utc": "2026-10-18 21:16:31.276 UTC",
+ "unplayed_turn": null,
+ "white": "model",
+ "winner": "model"
+}

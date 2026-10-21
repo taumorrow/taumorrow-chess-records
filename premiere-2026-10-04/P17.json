@@ -1,0 +1,100 @@
+{
+ "black": "engine",
+ "duration_s": 749,
+ "end_utc": "2026-10-04 15:45:10.549 UTC",
+ "final_fen": "r1bqkb1r/pppppppp/2n2n2/8/4P3/2N2N2/PPPP1PPP/R1BQKB1R b KQkq - 4 3",
+ "game": 17,
+ "half_moves": 5,
+ "model": "Claude Haiku 4.5",
+ "model_answers": 3,
+ "model_colour": "White",
+ "moves": [
+  {
+   "attempts": [
+    {
+     "answer_text": "I'll play one of the most popular opening moves in chess.\n\nMOVE: e2e4\n\nThis is the King's Pawn opening, controlling the center and opening lines for the queen and light-squared bishop.",
+     "attempt": 1,
+     "move_read": "e2e4",
+     "outcome": "accepted",
+     "time_utc": "2026-10-04 15:32:48.804 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+   "ms": 4000,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 1,
+   "san": "e4",
+   "uci": "e2e4"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "r1bqkbnr/pppppppp/2n5/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 1 2",
+   "ms": 211757,
+   "ms_source": "server",
+   "n": 2,
+   "san": "Nc6",
+   "uci": "b8c6"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "I'll analyze this position. Black has played 1...Nc6, a solid response to my 1.e4.\n\nLet me consider the key candidate moves:\n- 5.Nf3: Develops a piece and supports the e4 pawn\n- 5.d4: Occupies the center aggressively\n- 5.Nc3: Develops and controls key squares\n\nThis is a standard opening position. Black's Nc6 is a classical response that doesn't commit to a specific system yet. \n\nThe most natural and flexible move here is **Nf3**, which:\n1. Develops a piece with tempo considerations\n2. Supports the e4 pawn\n3. Keeps options open for d4, Nc3, or other plans\n4. Is consistent with the Open Game principles\n\nMOVE: g1f3\nDeveloping a knight while supporting the center and keeping flexibility in my opening strategy.",
+     "attempt": 1,
+     "move_read": "g1f3",
+     "outcome": "accepted",
+     "time_utc": "2026-10-04 15:36:30.009 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "r1bqkbnr/pppppppp/2n5/8/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 2 2",
+   "ms": 6200,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 3,
+   "san": "Nf3",
+   "uci": "g1f3"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "r1bqkb1r/pppppppp/2n2n2/8/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 3 3",
+   "ms": 455607,
+   "ms_source": "server",
+   "n": 4,
+   "san": "Nf6",
+   "uci": "g8f6"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "I need to analyze this position. We have:\n- White: King on e1, Queen on d1, Rooks on a1 and h1, Bishops on c1 and f1, Knights on b1 and f3, Pawns on a2, b2, c2, d2, e4, f2, g2, h2\n- Black: King on e8, Queen on d8, Rooks on a8 and h8, Bishops on c8 and f8, Knights on c6 and f6, Pawns on a7-h7\n\nThis is a standard opening position after 1. e4 Nc6 2. Nf3 Nf6. Black has played a solid defense.\n\nGood candidate moves include:\n1. **Nc3** - Developing and supporting the center\n2. **Bc4** - Classic Italian Game setup\n3. **d4** - Pushing for center control\n\nI'll consider the most flexible and strong continuation. **Nc3** develops a piece, supports control of the center, and keeps options open. This is a solid, principled move that:\n- Develops a piece from its starting square\n- Supports the e4 pawn indirectly\n- Controls key central squares (d5, e4, b5)\n- Allows for future plans like d4 or other aggressive continuations\n\nMOVE: b1c3\nDeveloping a knight to support the center and prepare for further development.",
+     "attempt": 1,
+     "move_read": "b1c3",
+     "outcome": "accepted",
+     "time_utc": "2026-10-04 15:44:16.085 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "r1bqkb1r/pppppppp/2n2n2/8/4P3/2N2N2/PPPP1PPP/R1BQKB1R b KQkq - 4 3",
+   "ms": 6900,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 5,
+   "san": "Nc3",
+   "uci": "b1c3"
+  }
+ ],
+ "notes": [],
+ "reason": "aborted, no result",
+ "rejected_answers": 0,
+ "result": "*",
+ "series": "premiere-2026-10-04",
+ "start_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+ "start_utc": "2026-10-04 15:32:41.825 UTC",
+ "unplayed_turn": null,
+ "white": "model",
+ "winner": null
+}

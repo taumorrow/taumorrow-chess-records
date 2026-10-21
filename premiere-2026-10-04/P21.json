@@ -1,0 +1,521 @@
+{
+ "black": "engine",
+ "duration_s": 820,
+ "end_utc": "2026-10-04 16:22:11.640 UTC",
+ "final_fen": "r1b3kr/pppp3p/3b4/6p1/3n1p2/2P5/PP1P2PP/R1B1q1KR w - - 3 17",
+ "game": 21,
+ "half_moves": 32,
+ "model": "Claude Haiku 4.5 / Claude Haiku 4.5 · Thinking",
+ "model_answers": 20,
+ "model_colour": "White",
+ "moves": [
+  {
+   "attempts": [
+    {
+     "answer_text": "I'll play the most popular opening move in chess.\n\nMOVE: e2e4\n\nThis is the King's Pawn opening, controlling the center and opening lines for the queen and bishop while preparing to develop pieces with tempo.",
+     "attempt": 1,
+     "move_read": "e2e4",
+     "outcome": "accepted",
+     "time_utc": "2026-10-04 16:08:34.362 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+   "ms": 1500,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 1,
+   "san": "e4",
+   "uci": "e2e4"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "r1bqkbnr/pppppppp/2n5/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 1 2",
+   "ms": 17351,
+   "ms_source": "server",
+   "n": 2,
+   "san": "Nc6",
+   "uci": "b8c6"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "I need to analyze this position after 1.e4 Nc6.\n\nBlack has played the Nimzowitsch Defense, attacking my e4 pawn with the knight. Let me consider my options:\n\n1. **Defend the e4 pawn** - I could play moves like Nf3 or d3, but these are passive.\n\n2. **Ignore the threat and develop** - Nf3 is a natural developing move that also prepares to support the center.\n\n3. **Advance in the center** - d4 is a strong central move that maintains the initiative and is consistent with opening principles.\n\n4. **d5** - This would overextend, and after Nxe4, I don't have compensation.\n\nThe most natural and principled move is **Nf3**, which:\n- Develops a piece\n- Supports the center\n- Prepares to maintain or expand my central control\n- Allows d4 on the next move if Black doesn't challenge immediately\n- Is a flexible move that doesn't commit too much\n\nThis is a standard response in the Nimzowitsch Defense, keeping the initiative while developing naturally.\n\nMOVE: g1f3",
+     "attempt": 1,
+     "move_read": "g1f3",
+     "outcome": "accepted",
+     "time_utc": "2026-10-04 16:08:55.982 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "r1bqkbnr/pppppppp/2n5/8/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 2 2",
+   "ms": 3500,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 3,
+   "san": "Nf3",
+   "uci": "g1f3"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "r1bqkb1r/pppppppp/2n2n2/8/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 3 3",
+   "ms": 30311,
+   "ms_source": "server",
+   "n": 4,
+   "san": "Nf6",
+   "uci": "g8f6"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "MOVE: b1c3\n\nDeveloping my second knight while supporting the center and preparing to advance d4 or take on e5 if needed. This is a natural continuation in the opening.",
+     "attempt": 1,
+     "move_read": "b1c3",
+     "outcome": "accepted",
+     "time_utc": "2026-10-04 16:09:38.044 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "r1bqkb1r/pppppppp/2n2n2/8/4P3/2N2N2/PPPP1PPP/R1BQKB1R b KQkq - 4 3",
+   "ms": 11100,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 5,
+   "san": "Nc3",
+   "uci": "b1c3"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "r1bqkb1r/pppp1ppp/2n2n2/4p3/4P3/2N2N2/PPPP1PPP/R1BQKB1R w KQkq e6 0 4",
+   "ms": 25812,
+   "ms_source": "server",
+   "n": 6,
+   "san": "e5",
+   "uci": "e7e5"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "Looking at this position, we have a typical Four Knights Game setup. Black has solidly developed both knights and played e5 in the center.\n\nThe most natural and strong continuation here is to attack Black's c6 knight with the bishop, which also puts pressure on the position and forces Black to make decisions about their setup.\n\nMOVE: f1b5\n\nThis is the classical continuation in the Four Knights Game, attacking the c6 knight and maintaining central control.",
+     "attempt": 1,
+     "move_read": "f1b5",
+     "outcome": "accepted",
+     "time_utc": "2026-10-04 16:10:10.988 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "r1bqkb1r/pppp1ppp/2n2n2/1B2p3/4P3/2N2N2/PPPP1PPP/R1BQK2R b KQkq - 1 4",
+   "ms": 6800,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 7,
+   "san": "Bb5",
+   "uci": "f1b5"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "r1bqk2r/pppp1ppp/2n2n2/1Bb1p3/4P3/2N2N2/PPPP1PPP/R1BQK2R w KQkq - 2 5",
+   "ms": 59940,
+   "ms_source": "server",
+   "n": 8,
+   "san": "Bc5",
+   "uci": "f8c5"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "Looking at this Italian Game position, Black has just played Bc5, but their f7 pawn is now vulnerable with only the king defending it.\n\nI'll exploit this weakness immediately:\n\nMOVE: f3g5\n\nThis classic Italian Game tactic attacks the weak f7 square, forcing Black into a difficult defensive position. The threat of Nxf7 is hard to meet adequately.",
+     "attempt": 1,
+     "move_read": "f3g5",
+     "outcome": "accepted",
+     "time_utc": "2026-10-04 16:11:19.016 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "r1bqk2r/pppp1ppp/2n2n2/1Bb1p1N1/4P3/2N5/PPPP1PPP/R1BQK2R b KQkq - 3 5",
+   "ms": 7700,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 9,
+   "san": "Ng5",
+   "uci": "f3g5"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "r1bqk2r/pppp1ppp/5n2/1Bb1p1N1/3nP3/2N5/PPPP1PPP/R1BQK2R w KQkq - 4 6",
+   "ms": 81044,
+   "ms_source": "server",
+   "n": 10,
+   "san": "Nd4",
+   "uci": "c6d4"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "Looking at this position, I can see that Black's king is vulnerable on e8 and the f7 square is inadequately defended.\n\nThe knight on g5 can deliver a devastating blow with a classic tactical strike:\n\nMOVE: g5f7\n\nThis move gives check to the Black king and wins material by force. After Kxf7 or Ke7, White has exposed the Black king and can continue the attack with overwhelming force. This is the characteristic tactical blow in this type of Ruy Lopez position.",
+     "attempt": 1,
+     "move_read": "g5f7",
+     "outcome": "accepted",
+     "time_utc": "2026-10-04 16:12:51.206 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "r1bqk2r/pppp1Npp/5n2/1Bb1p3/3nP3/2N5/PPPP1PPP/R1BQK2R b KQkq - 0 6",
+   "ms": 10700,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 11,
+   "san": "Nxf7",
+   "uci": "g5f7"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "r1bq3r/pppp1kpp/5n2/1Bb1p3/3nP3/2N5/PPPP1PPP/R1BQK2R w KQ - 0 7",
+   "ms": 71120,
+   "ms_source": "server",
+   "n": 12,
+   "san": "Kxf7",
+   "uci": "e8f7"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "Looking at this position, Black's king on f7 is extremely exposed after being forced to capture my knight. I can exploit this immediately.\n\nThe key tactical shot here is to continue attacking while winning material. The e5 pawn is undefended, and my knight on c3 can capture it with check.\n\nMOVE: c3e5\n\nThis move gives check to the exposed king on f7, forces it to move, and wins the e5 pawn while maintaining White's strong attacking initiative.",
+     "attempt": 1,
+     "message_sent_back": "The move c3e5 is not legal in this position.",
+     "move_read": "c3e5",
+     "outcome": "rejected",
+     "time_utc": "2026-10-04 16:14:11.184 UTC"
+    },
+    {
+     "answer_text": "You're right, I apologize for that error. A knight on c3 cannot reach e5 in one move.\n\nLet me reconsider the position. The Black king on f7 is very exposed, and I should look for strong central moves.\n\nMOVE: c3d5\n\nThis knight move is a powerful centralization that attacks the queen on d8, the bishop on c5, and the knight on d4, giving White multiple winning tactical themes.",
+     "attempt": 2,
+     "move_read": "c3d5",
+     "outcome": "accepted",
+     "time_utc": "2026-10-04 16:14:17.485 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "r1bq3r/pppp1kpp/5n2/1BbNp3/3nP3/8/PPPP1PPP/R1BQK2R b KQ - 1 7",
+   "ms": 14700,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 13,
+   "san": "Nd5",
+   "uci": "c3d5"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "r1bq3r/pppp1kpp/8/1Bbnp3/3nP3/8/PPPP1PPP/R1BQK2R w KQ - 0 8",
+   "ms": 43497,
+   "ms_source": "server",
+   "n": 14,
+   "san": "Nxd5",
+   "uci": "f6d5"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "Looking at this position, Black has both a knight on d5 and another on d4, putting pressure on my position. However, I have a solid opportunity here.\n\nThe most natural move is to capture the centralized knight with my pawn, which also helps open lines and simplify the position favorably for White.\n\nMOVE: e4d5\n\nThis captures the knight on d5 while improving the pawn structure and opening potential lines in the center.",
+     "attempt": 1,
+     "move_read": "e4d5",
+     "outcome": "accepted",
+     "time_utc": "2026-10-04 16:15:11.446 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "r1bq3r/pppp1kpp/8/1BbPp3/3n4/8/PPPP1PPP/R1BQK2R b KQ - 0 8",
+   "ms": 9600,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 15,
+   "san": "exd5",
+   "uci": "e4d5"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "r1bq3r/pppp1kpp/8/1nbPp3/8/8/PPPP1PPP/R1BQK2R w KQ - 0 9",
+   "ms": 25851,
+   "ms_source": "server",
+   "n": 16,
+   "san": "Nxb5",
+   "uci": "d4b5"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "Looking at this position, Black's king on f7 is severely exposed. I notice that my queen has a powerful check available along the long diagonal.\n\nThe queen can move from d1 to b3, delivering check to the Black king via the diagonal b3-c4-d5-e6-f7. This forces the king to move while maintaining White's strong initiative with the advanced d5 pawn and better piece coordination.\n\nMOVE: d1b3",
+     "attempt": 1,
+     "message_sent_back": "The move d1b3 is not legal in this position.",
+     "move_read": "d1b3",
+     "outcome": "rejected",
+     "time_utc": "2026-10-04 16:15:47.300 UTC"
+    },
+    {
+     "answer_text": "Looking at the board more carefully, I see that my pawn on c2 blocks the diagonal path to b3. Let me reconsider.\n\nI'll play f4 instead, attacking the e5 pawn and opening lines for my rooks while the Black king remains exposed.\n\nMOVE: f2f4",
+     "attempt": 2,
+     "move_read": "f2f4",
+     "outcome": "accepted",
+     "time_utc": "2026-10-04 16:16:04.940 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "r1bq3r/pppp1kpp/8/1nbPp3/5P2/8/PPPP2PP/R1BQK2R b KQ f3 0 9",
+   "ms": 27200,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 17,
+   "san": "f4",
+   "uci": "f2f4"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "r1bq3r/pppp1kpp/8/1nbP4/5p2/8/PPPP2PP/R1BQK2R w KQ - 0 10",
+   "ms": 46258,
+   "ms_source": "server",
+   "n": 18,
+   "san": "exf4",
+   "uci": "e5f4"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "Looking at this position, Black's king on f7 is exposed and vulnerable after the tactical complications. White has a powerful advanced pawn on d5 and significant attacking potential.\n\nThe most forcing continuation is to activate my queen with tempo.\n\nMOVE: d1f3\n\nThis move gives check to the Black king on f7, forcing it to move and allowing me to continue my attack while my advanced d5 pawn and pieces dominate the position.",
+     "attempt": 1,
+     "move_read": "d1f3",
+     "outcome": "accepted",
+     "time_utc": "2026-10-04 16:17:04.084 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "r1bq3r/pppp1kpp/8/1nbP4/5p2/5Q2/PPPP2PP/R1B1K2R b KQ - 1 10",
+   "ms": 11700,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 19,
+   "san": "Qf3",
+   "uci": "d1f3"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "r1bq3r/pppp1k1p/8/1nbP2p1/5p2/5Q2/PPPP2PP/R1B1K2R w KQ g6 0 11",
+   "ms": 41750,
+   "ms_source": "server",
+   "n": 20,
+   "san": "g5",
+   "uci": "g7g5"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "Looking at this position, Black's king on f7 is dangerously exposed after being forced there on move 6. \n\nThe key tactical blow is to exploit this with a powerful check:\n\nMOVE: f3f6\n\nThis move delivers check and puts the Black king under severe pressure. The queen on f6 dominates the position and Black will struggle to defend against White's threats.",
+     "attempt": 1,
+     "message_sent_back": "The move f3f6 is not legal in this position.",
+     "move_read": "f3f6",
+     "outcome": "rejected",
+     "time_utc": "2026-10-04 16:17:55.188 UTC"
+    },
+    {
+     "answer_text": "Let me reconsider the position more carefully.\n\nLooking at the Queen on f3, I need to find the most forcing move. Let me try attacking the exposed king with:\n\nMOVE: f3e4\n\nThis centralizes the Queen with a strong attack on Black's exposed king on f7.",
+     "attempt": 2,
+     "move_read": "f3e4",
+     "outcome": "accepted",
+     "time_utc": "2026-10-04 16:18:08.023 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "r1bq3r/pppp1k1p/8/1nbP2p1/4Qp2/8/PPPP2PP/R1B1K2R b KQ - 1 11",
+   "ms": 21500,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 21,
+   "san": "Qe4",
+   "uci": "f3e4"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "r1bq2kr/pppp3p/8/1nbP2p1/4Qp2/8/PPPP2PP/R1B1K2R w KQ - 2 12",
+   "ms": 42050,
+   "ms_source": "server",
+   "n": 22,
+   "san": "Kg8",
+   "uci": "f7g8"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "Looking at this position, Black's king has just retreated to g8 after being attacked on f7. The king is vulnerable and the back rank is a critical weakness.\n\nI can exploit this immediately:\n\n**MOVE: e4e8**\n\nThis is check - the queen moves to e8 attacking the king on g8 along the 8th rank. Black must play Kh7 (the only legal move), and then White maintains a powerful attacking position against the exposed king. The threat of back rank tactics and the advanced position of my d5 pawn give White a significant advantage.",
+     "attempt": 1,
+     "move_read": "e4e8",
+     "outcome": "accepted",
+     "time_utc": "2026-10-04 16:19:03.144 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "r1bqQ1kr/pppp3p/8/1nbP2p1/5p2/8/PPPP2PP/R1B1K2R b KQ - 3 12",
+   "ms": 12600,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 23,
+   "san": "Qe8+",
+   "uci": "e4e8"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "r1b1q1kr/pppp3p/8/1nbP2p1/5p2/8/PPPP2PP/R1B1K2R w KQ - 0 13",
+   "ms": 11726,
+   "ms_source": "server",
+   "n": 24,
+   "san": "Qxe8+",
+   "uci": "d8e8"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "Looking at this position, I'm in check from the Black Queen on e8. I need to respond to the check.\n\nLet me evaluate my options:\n1. I cannot capture the Queen on e8\n2. I cannot effectively block the check on the e-file\n3. I must move my King to safety\n\nThe available King moves are Kd1, Kf1, or Kf2. Among these, Kf1 is the safest square, as it gets away from the center and is not attacked by any Black piece.\n\nMOVE: e1f1\n\nMoving the King to safety while maintaining a reasonable position.",
+     "attempt": 1,
+     "move_read": "e1f1",
+     "outcome": "accepted",
+     "time_utc": "2026-10-04 16:19:27.414 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "r1b1q1kr/pppp3p/8/1nbP2p1/5p2/8/PPPP2PP/R1B2K1R b - - 1 13",
+   "ms": 11100,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 25,
+   "san": "Kf1",
+   "uci": "e1f1"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "r1b1q1kr/pppp3p/8/2bP2p1/3n1p2/8/PPPP2PP/R1B2K1R w - - 2 14",
+   "ms": 17102,
+   "ms_source": "server",
+   "n": 26,
+   "san": "Nd4",
+   "uci": "b5d4"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "Looking at this position, White has a very advanced passed pawn on d5, which is the most dangerous piece on the board right now. Black's knight is active on d4, but White should capitalize on the advanced pawn before Black's pieces can coordinate effectively.\n\nPushing the passed pawn forces Black to respond to the promotion threat immediately.\n\nMOVE: d5d6",
+     "attempt": 1,
+     "move_read": "d5d6",
+     "outcome": "accepted",
+     "time_utc": "2026-10-04 16:19:52.538 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "r1b1q1kr/pppp3p/3P4/2b3p1/3n1p2/8/PPPP2PP/R1B2K1R b - - 0 14",
+   "ms": 6900,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 27,
+   "san": "d6",
+   "uci": "d5d6"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "r1b1q1kr/pppp3p/3b4/6p1/3n1p2/8/PPPP2PP/R1B2K1R w - - 0 15",
+   "ms": 31829,
+   "ms_source": "server",
+   "n": 28,
+   "san": "Bxd6",
+   "uci": "c5d6"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "Looking at this position, I need to consolidate White's advantage after the exchanges. Black's knight on d4 is very actively placed and needs to be dealt with.\n\nThe most natural move is to attack this knight with my c-pawn.\n\nMOVE: c2c3\n\nThis forces the knight to move and improves White's pawn structure and control of the center.",
+     "attempt": 1,
+     "move_read": "c2c3",
+     "outcome": "accepted",
+     "time_utc": "2026-10-04 16:20:34.139 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "r1b1q1kr/pppp3p/3b4/6p1/3n1p2/2P5/PP1P2PP/R1B2K1R b - - 0 15",
+   "ms": 9200,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 29,
+   "san": "c3",
+   "uci": "c2c3"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "r1b3kr/pppp3p/3b4/6p1/3n1p2/2P5/PP1Pq1PP/R1B2K1R w - - 1 16",
+   "ms": 30134,
+   "ms_source": "server",
+   "n": 30,
+   "san": "Qe2+",
+   "uci": "e8e2"
+  },
+  {
+   "attempts": [
+    {
+     "answer_text": "Looking at this position, my king on f1 is in check from the Black queen on e2.\n\nI need to address this check. Let me evaluate my options:\n1. King moves (Kg1, Kg2, Kf2)\n2. Block the check (not possible - adjacent pieces)\n3. Capture the queen with Kxe2\n\nCapturing the queen is clearly the best option - even if Black's knight on d4 can give another check with Nf3+, I've won Black's queen, which is tremendous material advantage. The knight on d4 can move to e2 to attack my king, but I'll have already captured the queen.\n\nMOVE: f1e2\n\nThis captures Black's queen, winning significant material despite any resulting checks.",
+     "attempt": 1,
+     "message_sent_back": "The move f1e2 is not legal in this position.",
+     "move_read": "f1e2",
+     "outcome": "rejected",
+     "time_utc": "2026-10-04 16:21:15.047 UTC"
+    },
+    {
+     "answer_text": "You're right - I missed that the knight on d4 defends e2! Moving the king to e2 would put it in check from the knight, which is illegal.\n\nLet me move the king to safety instead:\n\nMOVE: f1g1\n\nThe king escapes to g1, getting out of check from the queen.",
+     "attempt": 2,
+     "move_read": "f1g1",
+     "outcome": "accepted",
+     "time_utc": "2026-10-04 16:21:27.018 UTC"
+    }
+   ],
+   "by": "model",
+   "colour": "White",
+   "fen_after": "r1b3kr/pppp3p/3b4/6p1/3n1p2/2P5/PP1Pq1PP/R1B3KR b - - 2 16",
+   "ms": 21500,
+   "ms_source": "opponent log, 0.1 s resolution",
+   "n": 31,
+   "san": "Kg1",
+   "uci": "f1g1"
+  },
+  {
+   "by": "engine",
+   "colour": "Black",
+   "fen_after": "r1b3kr/pppp3p/3b4/6p1/3n1p2/2P5/PP1P2PP/R1B1q1KR w - - 3 17",
+   "ms": 41250,
+   "ms_source": "server",
+   "n": 32,
+   "san": "Qe1#",
+   "uci": "e2e1"
+  }
+ ],
+ "notes": [
+  "The opponent process was restarted at 2026-10-04 16:09:03.822 UTC and continued this game from the server's position; the next model move was half-move 5. From then on the model ran as \"Claude Haiku 4.5 · Thinking\"."
+ ],
+ "reason": "checkmate",
+ "rejected_answers": 4,
+ "result": "0-1",
+ "series": "premiere-2026-10-04",
+ "start_fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+ "start_utc": "2026-10-04 16:08:31.878 UTC",
+ "unplayed_turn": null,
+ "white": "model",
+ "winner": "engine"
+}
